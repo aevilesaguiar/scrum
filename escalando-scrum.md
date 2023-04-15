@@ -1,4 +1,4 @@
-# escalando scrum
+# Escalando scrum
 
 
 O Guia do scrum não nos mostra como escalar o framework. 
