@@ -50,3 +50,65 @@ Cada time scrum poderá escolher um representante que será enviado para esta re
 A coordenação desta reunião é feita pela Scrum Master Chefe, que pode tanto ser um membro de um time scrum individual e que assume o papel de coordenação geral ou um Scrum Master dedicado ao trabalho de coordenação dos times e sendo assim, não pertencente a nenhum time.
 O scrum master chefe é o indivíduo responsável por abordar os impedimentos que impactam mais de um time scrum. Impedimentos individuais deverão ser tratados pelos seus próprios times.
 
+##  Framework Nexus
+
+o framework Nexus, criado pela Scrum org para escalar projetos e Scrum.
+Uma das indicações do Guia do Scrum é que times ágeis não devem ter mais do que dez integrantes de preferência. Então, como fazer quando o que precisa ser desenvolvido vai necessitar de mais gente para auxiliar as empresas a resolverem problemas desta natureza?
+
+A Scrum  lançou o Nexus, um framework para escalar o Scrum.
+
+Esse framework consiste em regras, eventos, artefatos e papéis bem semelhantes aos previstos no framework Scrum.
+
+É uma estrutura criada para suportar de 3 a 9 times trabalhando num único produto. A diferença mais evidente é que mais atenção é dada às dependências e ao sincronismo dos times e scrum envolvidos, para que estes formem uma única e consistente engrenagem, a fim de entregar com êxito um incremento pronto e integrado ao final de cada expoente.
+
+Papéis no Nexus, time de integração Nexus, são os responsáveis por garantir que um incremento pronto e integrado seja entregue ao final de cada sprint.
+
+São eles os responsáveis por resolver os problemas técnicos e não técnicos que impeçam os times Scrum de atingirem seus objetivos.
+
+O time de integração Nexus possui os seguintes papéis;
+
+- O dono do produto.
+- Um Scrum Master.
+- Um ou mais membros do time de integração Nexus.
+
+Eles podem fazer parte dos times scrum individuais, exceto o dono do produto.
+
+Entretanto, eles precisam priorizar as atividades inerentes ao time de integração Nexus, dono do produto o time de integração Nexus.
+
+Como em um Nexus, só há um backlog do produto e no Scrum só há um dono do produto. Então, as responsabilidades do dono do produto continuam sendo basicamente as mesmas maximizar o valor do produto desenvolvido de forma integrada e priorizar e refinar constantemente o backlog do produto.
+
+E Scrum Master do time de integração Nexus é o responsável por assegurar que o Nexus é entendido e suas regras são cumpridas.
+
+Ele pode fazer parte de um ou mais times de scrum individuais dentro de um Nexus.
+
+Membros do time de integração Nexus. Os membros desse time são os responsáveis por treinar e orientar os times e Scrum a implementarem e aprenderem sobre práticas e ferramentas de integração contínua, testes automatizados, etc.
+
+Além disso, eles treinam os times scrum sobre padrões de desenvolvimento exigidos para que se obtenham incremento integrado com a qualidade esperada ao final de cada expoente. Assim como Scrum master, se suas obrigações estiverem sendo satisfeitas, eles podem integrar um dos times Scrum individuais.
+
+**Eventos do Nexus 
+
+Os eventos do Nexus são os mesmos previstos no Scrum. Inclusive, os time boxes permanecem proporcionalmente os mesmos.
+
+Portanto, teremos sempre a cada sprint um planejamento da Sprint Nexus, uma revisão de Sprint Nexus, uma retrospectiva da Sprint Nexus e uma reunião diária Nexus.
+
+Veja que os eventos individuais do Scrum vão continuar acontecendo, com exceção da reunião de revisão da Sprint Individual, que será substituída pela revisão da Sprint Nexus, já que o objetivo maior desta reunião é obter o feedback do trabalho integrado de todas as equipes.
+
+O refinamento do backlog também ganha destaque aqui. A ideia é que quanto mais aumentarmos a frequência, a duração e eficácia do refinamento, menor será a complexidade do desenvolvimento e as dependências entre os times e individuais.
+
+O Nexus prescreve ainda que os eventos sejam divididos em duas ou três partes. Geralmente, 1/1 de um evento tem como finalidade permitir que o time de integração Nexus levante questões relacionadas à integração, gerando assim importantes entradas para a realização dos eventos individuais de cada time Scrum. 1/2 serve para que os times excluam, alcancem individualmente os objetivos propostos pelo evento em questão e 1/3, se houver necessidade de acontecer, como no caso da retrospectiva da Sprint Nexus, será para consolidar o que foi planejado e ou discutido nas duas primeiras partes.
+
+**Artefatos do Nexos
+
+Praticamente todos os artefatos previstos no framework foram mantidos, ou seja, teremos o backlog do produto. Um backlog desprende Nexus e o incremento integrado.
+A diferença é que o backlog da Nexus foi criado com o objetivo de compor todos os backlogs das experiências dos times e individuais.
+Além disso, ele se propõe a evidenciar as dependências e acompanhar o fluxo de trabalho durante as experiências.
+Ele é atualizado diariamente na reunião do Nexus.
+
+Um Nexus?
+
+Gol ou a meta do Nexus deve ser definida a cada sprint? Esta meta é única e deve ser perseguida e atingida conjuntamente por todos os times individuais.
+
+Já a definição de pronto é de responsabilidade do time de integração Nexus, pois é ele quem deve garantir um incremento do produto integrado ao final de cada sprint.
+
+Os times de scrum individuais devem aderir a esta definição, mas podem ter as suas próprias definições de pronto e individuais.
+
