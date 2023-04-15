@@ -24,3 +24,29 @@ E as boas práticas também sugerem que você deve ter um dono do produto para c
 - Definição de pronto.
  Certifique se de que todos os times que trabalham em um mesmo produto tenham uma definição de pronto única que gere incrementos integrados. Isso, obviamente, não impede que cada time desenvolva a sua própria definição de pronto. Mas deve se levar em consideração que as definições individuais devem atender também aos requisitos gerais da definição de pronto integrada.
 
+## Scrum de Scrums
+
+Os grandes projetos requerem que múltiplos times e Scrum trabalhem em paralelo.
+Hoje já existem vários frameworks específicos para se escalar o Scrum, mas se a sua empresa ainda não tem como adotar mais um framework, porque mal conseguiu colocar em prática o Scrum?
+
+Como então escalar o scrum?
+
+E a resposta é com scrum de scrums. Essas reuniões permitem agrupar os times para discutir seus trabalhos, focando especialmente em áreas de sobreposição e integração. O scrum de scrum não só facilita a coordenação entre os times, mas também permite a implementação eficaz em projetos maiores.
+Grandes projetos podem ter múltiplos times e Scrum trabalhando em paralelo, sendo necessário sincronizar e facilitar o fluxo de informações e melhorar a comunicação. Isso é feito justamente nessa reunião.
+
+Como funciona o scrum de scrums?
+
+Inicia com uma convocação para esse evento, o que garante a sincronização necessária em grandes projetos. Todos os times Scrums são representados nessa reunião com o objetivo de fornecer atualizações sobre o progresso e discutir os desafios enfrentados durante o projeto e coordenar as atividades. Além disso, quando as reuniões do escalão de Scrums são realizadas, os impedimentos que um time está enfrentando atualmente podem ser considerados como riscos para outros times e scrum. Não há regras estabelecidas quanto à frequência dessas reuniões, tanto que os fatores que determinam a frequência podem ser a quantidade de dependências entre os times, o tamanho do projeto, as recomendações de processos internos e o nível de complexidade do projeto.
+
+Essa reunião é muito similar à reunião diária. Inclusive, o seu time box é de 15 minutos e é facilitada pelo Scrum Master Chefe. O Scrum Master Chef é tipicamente um indivíduo responsável por abordar os impedimentos que impactam mais de um time scrum e as perguntas típicas dessa reunião são:
+    - do que o seu time tem trabalhado desde a última reunião, 
+    - o que o seu time irá concluir até a próxima reunião? 
+    - Quais são os seus impedimentos e como os outros times podem te ajudar? 
+    - E quais são as decisões tomadas pelo seu time que podem impactar os outros times?
+
+- O papel de cada um.
+
+Cada time scrum poderá escolher um representante que será enviado para esta reunião. Não há obrigatoriedade de que sejam os scrum master de cada time, embora seja recomendável que eles também participem. 
+A coordenação desta reunião é feita pela Scrum Master Chefe, que pode tanto ser um membro de um time scrum individual e que assume o papel de coordenação geral ou um Scrum Master dedicado ao trabalho de coordenação dos times e sendo assim, não pertencente a nenhum time.
+O scrum master chefe é o indivíduo responsável por abordar os impedimentos que impactam mais de um time scrum. Impedimentos individuais deverão ser tratados pelos seus próprios times.
+
