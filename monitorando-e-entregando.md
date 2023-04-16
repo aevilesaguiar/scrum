@@ -90,6 +90,144 @@ Existe uma linha tênue entre o momento em que descobrimos um problema na Sprint
 
 E veja que se uma tendência perdurar por mais de duas Sprints, não deixe que isso continue. Uma ação corretiva deve ser tomada antes que essa tendência se propague para os mais Sprints.
 
+## BurnDown do Produto( ou Release)
+
+O BurnDown do produto ou release BurnDown chart é o gráfico que registra a soma dos esforços restantes do backlog do produto ao longo do tempo.
+
+![image](https://user-images.githubusercontent.com/52088444/232315320-3fc51a25-5a8f-47cc-87c1-b4dbbf933bd5.png)
+
+Em um projeto scrum otime acompanha seu progresso atualizando o gráfico de bordão do produto ao final de cada Sprint.
+
+- O eixo horizontal desse gráfico mostra as Sprints.
+- O eixo vertical mostra a quantidade de trabalho restante no início de cada expoente.
+
+O trabalho restante pode ser representado em qualquer unidade da preferência do time por pontos de história, dias ideais, etc.
+
+Neste gráfico, o time iniciou um projeto que foi planejado em 11 Sprints de duas semanas, com o total de 200 pontos de história.
+![image](https://user-images.githubusercontent.com/52088444/232315399-376c5db1-6099-4cc5-a805-9ab4356d8350.png)
+
+- A primeira sprint correu bem e a partir do gráfico podemos ver que eles finalizaram 20 pontos, ficando então cerca de 180 pontos de história remanescentes após a primeira Sprint
+- durante a segunda sprint, podemos ver que houve um aumento do trabalho.Isso pode ter sido causado por atividades adicionadas ao projeto ou porque o time alterou algumas estimativas do trabalho restante.
+![image](https://user-images.githubusercontent.com/52088444/232315506-21acc95c-1341-4128-9fe7-deee08a0cdeb.png)
+
+- A partir desse sprint, o projeto prosseguiu bem, chegando até a Sprint sete, que podemos ver uma diminuição do progresso, mas que depois foi rapidamente recuperado.
+![image](https://user-images.githubusercontent.com/52088444/232315534-b1cfb522-f2b5-45d4-aad0-603235b9971c.png)
+
+Como podemos ver, o uso desse gráfico é bem simples e ele funciona muito bem em várias situações e em vários times. Entretanto, em projetos com muitas mudanças de requisitos, talvez seja interessante utilizar o gráfico de Burndown alternativo.
+
+**Gráfico de BurnDown do produto alternativo.
+![image](https://user-images.githubusercontent.com/52088444/232315604-5a5210fd-0583-4ca2-96f7-4ce35113adc7.png)
+
+O gráfico de bBurndown do produto ou release típico do scrum, mostra um único valor a mudança na quantidade de trabalho restante. Em alguns casos, sua simplicidade é maravilhosa. Entretanto, ela também pode mascarar o que pode estar acontecendo em um projeto.
+
+- Por exemplo, suponha que um time esperasse avançar 40 horas, pontos ou o que for, mas o último gráfico de Burndown da Sprint mostra apenas o progresso de dez.
+
+O time foi mais lento do que o esperado ou mais trabalho foi acrescentado ao incremento? Como saber isso?
+
+**Neste gráfico de burndown, a altura de cada barra representa a quantidade de trabalho restante no release.
+![image](https://user-images.githubusercontent.com/52088444/232315701-23bfc42c-e2c0-400c-ad8f-085a1cd8ec5f.png)
+
+Eu prefiro, particularmente, estimar os itens do backlog do produto em pontos de história, porque eles indicam o valor de negócio que estamos adicionando ao projeto. Se fossem apenas horas, não teríamos certeza se essas horas têm algo de útil entregue nelas.
+- Começamos o projeto, então, com 175 pontos de história ao final da Sprint um.
+![image](https://user-images.githubusercontent.com/52088444/232315768-d6d350d5-d156-44b3-972e-8df3ddb0860d.png)
+- 25 pontos foram entregues, restando 150 a serem concluídos 
+![image](https://user-images.githubusercontent.com/52088444/232315781-aeb3a5d2-835a-4692-b0e4-9af27f758f5a.png)
+- no final da Sprint Três Temos 120 pontos ainda a serem entregues e é aí que começa a bagunça.
+![image](https://user-images.githubusercontent.com/52088444/232315810-c22b1246-db1c-4cfb-8667-c62ba02dbfac.png)
+- Antes do inicio da Sprint quatro, o dono do produto acrescentou trabalho ao projeto.
+![image](https://user-images.githubusercontent.com/52088444/232315838-0d0f7a31-4ecd-4931-908d-b60891730da5.png)
+- Este trabalho adicional é mostrado na parte inferior do gráfico, logo abaixo do eixo X.
+- Você pode ver que a altura vertical da Sprint quatro vai aproximadamente de -40 a 95 ou 135 pontos de trabalho remanescentes.
+![image](https://user-images.githubusercontent.com/52088444/232315894-d236c63e-d8f5-4a5a-a36a-c187671dd11a.png)
+- 40 desse 135 pontos são de trabalho novo 
+- antes do início da Sprint Seis algum trabalho foi removido pelo dono do produto, Veja que a barra da Sprint seis abaixo do eixo X diminuiu uns 30 pontos.Já a parte superior dessa barra também diminuiu.as isso é por conta do trabalho dos desenvolvedores, que entregaram uns 25 pontos de história.
+![image](https://user-images.githubusercontent.com/52088444/232315930-b8438c54-0796-4517-9eee-c1871b83d844.png)
+- O mesmo aconteceu com a Sprint sete.Os desenvolvedores entregaram 25 pontos de história e o dono do produto não acrescentou mais nada,nem tampouco removeu 
+![image](https://user-images.githubusercontent.com/52088444/232315997-f2b3ec86-5f2f-4037-86f3-0db5a405288a.png)
+
+**para prever quando o projeto encerrará, devemos levar em conta as tendências atuais. Assim, você desenha as linhas em vermelho, de acordo com as tendências das barras e vai ter uma noção aproximada de quando o projeto irá terminar.
+
+![image](https://user-images.githubusercontent.com/52088444/232316073-01580caa-b47b-44ee-9981-27574b6bab55.png)
+
+## Gráfico de Burnup
+
+Já vimos o Gráfico de Burndown do produto que nos permite acompanhar o andamento do projeto.
+
+Veremos agora o gráfico de Burnup, com o qual também é possível realizar o acompanhamento do projeto.
+
+Tanto Burndown como Burnup representam um progresso na entrega do trabalho. Basicamente, a diferença é na forma como os dados são apresentados.
+
+O Burn Down mostra o quanto falta para atingir a meta.
+![image](https://user-images.githubusercontent.com/52088444/232316387-6ac27c15-8e96-4f97-b94d-98e5c550550c.png)
+
+Enquanto o burnup mostra o que já foi feito até o momento.
+![image](https://user-images.githubusercontent.com/52088444/232316420-2e644b48-2c33-48f6-882d-c2386db30f77.png)
+
+
+Esse gráfico é construído sobre dois eixos no eixo horizontal e medindo o fator tempo e no eixo vertical
+
+temos o fator que representa o montante de trabalho.
+
+Este montante de trabalho pode ser representado em pontos de história, horas, etc.
+
+De acordo com o que é utilizado no dia a dia de trabalho pela equipe.
+
+Nesse gráfico vemos duas linhas.
+
+Azul representa o montante de trabalho entregue ao cliente, ou seja, representa o total de histórias
+
+ou itens do backlog entregues ao longo do projeto.
+
+A Linha Vermelha representa o montante de trabalho que está sendo pedido pelo cliente, ou seja, representa
+
+o total de histórias ou itens de back log criadas para o projeto.
+
+A distância entre estas duas linhas representa, a cada dia ou outra unidade de tempo utilizada, o
+
+montante de trabalho que falta ser entregue para que se atinja o objetivo do projeto naquele momento.
+
+Escopo versus entregas.
+
+A análise mais imediata que podemos fazer sobre este gráfico é a comparação do quanto o escopo do projeto
+
+evoluiu com quanto de trabalho foi entregue ao longo do tempo.
+
+Se o escopo do projeto começa a crescer muito mais do que a quantidade de trabalho entregue, então
+
+podemos ter um problema, pois o projeto está crescendo em demandas, mas a velocidade de entregas da
+
+equipe não está acompanhando o ritmo de crescimento dessas demandas.
+
+E o que fazer nesse caso.
+
+Temos algumas alternativas checar quais impedimentos podem estar impactando a velocidade das entregas.
+
+Checar qual a razão pela qual as demandas estão crescendo tão rapidamente.
+
+E alertar o cliente que, do jeito que as coisas vão, o projeto não vai terminar nunca.
+
+Estudar um possível aumento na equipe a fim de aumentar a velocidade das entregas.
+
+Sempre lembrando que um aumento ou modificação no time resultará em uma queda de produtividade inicial
+
+até que o novo membro esteja habilitado para o trabalho.
+
+Regularidade das entregas.
+
+Outra análise interessante é sobre a regularidade das entregas do projeto frente ao objetivo.
+
+Para esta análise, traçamos uma linha desde a origem do gráfico até o ponto que representa o total
+
+de demandas no último dia representado no gráfico, conforme a linha verde que apresentamos.
+
+Se a linha azul está sempre próxima da linha verde, mais equilibrado está o andamento do projeto.
+
+Além disso, com essa linha é possível avaliar se estamos adiantados ou atrasados com as entregas.
+
+Caso a linha azul esteja acima da linha verde, estamos adiantados.
+
+Caso a linha azul esteja abaixo da Linha Verde, estamos atrasados.
+
 
 
 
