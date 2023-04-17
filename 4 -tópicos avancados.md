@@ -260,142 +260,348 @@ Por exemplo: podemos definir que todas as consultas do sistema não devem demora
 
 ##  Criando histórias de usuário
 
-Uma história de usuário é uma descrição resumida, porém clara e objetiva de alguma funcionalidade que
+Uma história de usuário é uma descrição resumida, porém clara e objetiva de alguma funcionalidade que deverá ser fornecida pelo produto a ser entregue sempre do ponto de vista do usuário final. 
 
-deverá ser fornecida pelo produto a ser entregue sempre do ponto de vista do usuário final.
+Uma história de usuário, não é uma especificação completa da funcionalidade, mas uma promessa de discutí-la, ou simplesmente um lembrete de que a discussão já aconteceu. Embora muito utilizadas no scrum, o guia do scrum não indica que o seu uso seja obrigatório. Aliás, o guia do scrum cita o backlog da Sprint: É um plano com detalhes suficientes que as mudanças no progresso sejam entendidas durante a reunião diária, ou seja, detalhe da forma que quiser o que precisa ser feito. Só não desperdice tempo demais detalhando em profundidade. E as histórias de usuários são perfeitas para isso.
 
-E veremos em detalhes como construir uma história de usuário aqui nesta aula.
+**E por quê?
 
-É uma história de usuário, não é uma especificação completa da funcionalidade, mas uma promessa de
+Porque as histórias devem possuir uma descrição curta e objetiva para que caibam em um post-it. Ela normalmente é contada a partir da perspectiva de quem precisa da nova necessidade, sendo geralmente um usuário, um cliente do sistema ou um representante de negócios do cliente. Uma história de usuário deve explicar bem, para quem? o que e? por que está sendo criada?
 
-discuti la.
+**O formato sugerido:
 
-Ou simplesmente um lembrete de que a discussão já aconteceu.
 
-Embora muito utilizadas no scrum, o guia do scrum não indica que o seu uso seja obrigatório.
+![image](https://user-images.githubusercontent.com/52088444/232570785-31ea7319-aa51-41dc-822b-f160fe270261.png)
 
-Aliás, o guia do scrum cita o backlog da Sprint.
+- Como um ator ou tipo de usuário
+-  eu quero um objetivo a uma ação 
+-  para que atenda a uma necessidade 
 
-É um plano com detalhes suficientes que as mudanças no progresso sejam entendidas durante a reunião
+onde, ator ou usuário é o proprietário da história do usuário, pode tanto ser usuário ou uma persona. Ou seja, o interessado naquela funcionalidade. Mas é recomendado descrever de forma específica quem é esse ator, para que seja mais fácil de identificar o contexto da história dentro do sistema, objetivo ou ação e o que o ator deseja fazer. Utilizando aquela ação, ele espera alcançar seu objetivo dentro do sistema. Necessidade é o que o ator espera que aconteça ao realizar a ação, ou seja, é o resultado de executar a ação segundo a ótica do ator. Também pode ser visto como justificativa. Veja que este último item não é obrigatório em uma história de usuário.
 
-diária, ou seja, detalhe da forma que quiser o que precisa ser feito.
+Exemplos:
 
-Só não desperdice tempo demais detalhando em profundidade.
-
-E as histórias de usuários são perfeitas para isso.
-
-E por quê?
-
-Porque as histórias devem possuir uma descrição curta e objetiva para que caibam em um post-it.
-
-Ela normalmente é contada a partir da perspectiva de quem precisa da nova necessidade, sendo geralmente
-
-um usuário, um cliente do sistema ou um representante de negócios do cliente.
-
-Uma história de usuário deve explicar bem para quem, o que e por que está sendo criada.
-
-O formato sugerido como um fator ou tipo de usuário eu quero um objetivo a uma ação para que atenda
-
-a uma necessidade onde ator ou usuário é o proprietário da história do usuário, pode tanto ser usuário
-
-ou uma persona.
-
-Ou seja, o interessado naquela funcionalidade.
-
-Mas é recomendado descrever de forma específica quem é esse ator, para que seja mais fácil de identificar
-
-o contexto da história dentro do sistema, objetivo ou ação e o que o ator deseja fazer.
-
-Utilizando aquela ação, ele espera alcançar seu objetivo dentro do sistema.
-
-Necessidade é o que o ator espera que aconteça ao realizar a ação, ou seja, é o resultado de executar
-
-a ação segundo a ótica do ator.
-
-Também pode ser visto como justificativa.
-
-Veja que este último item não é obrigatório em uma história de usuário.
-
-Exemplos.
-
-Como usuário do sistema, eu quero poder redefinir minha senha como cliente da loja on line de roupas
-
-esportivas.
-
-Eu quero poder salvar os itens escolhidos e visualizá los mais tarde, para que então eu possa finalizar
-
-a compra.
+Como usuário do sistema, eu quero poder redefinir minha senha como cliente da loja on line de roupas esportivas.
+Eu quero poder salvar os itens escolhidos e visualizá los mais tarde, para que então eu possa finalizar a compra.
 
 Ao construir uma história do usuário, devemos levar em conta os seguintes aspectos.
 
-Ela deve ser escrita em termos não técnicos, em regra.
+- Ela deve ser escrita em termos não técnicos, em regra considere que qualquer pessoa, até mesmo a sua vozinha de 96 anos de idade, seja capaz de entender o que foi definido nessa história.
+- Uma história de usuário deve ser independente das demais, pois assim ela pode ser desenvolvida a qualquer momento, sem ter que depender de outras.
+- Normalmente usamos cartões ou post-its para escrever histórias de usuário e as fixamos em um quadro chamado de scrum board ou quadro de tarefas. Esses cartões ou post-its são uma das formas mais simples e eficazes de se controlar a Sprint. Eles normalmente contêm:
 
-Considere que qualquer pessoa, até mesmo a sua vozinha de 96 anos de idade, seja capaz de entender
+  -  a história ou a tarefa a ser desenvolvida, além de outras informações que podem ser acrescentadas, tais como;
+   - prioridade, 
+   - esforço em pontos de história, 
+   - tempo estimado em horas.
+   - Quem é o responsável pela tarefa?
+   - Indicativo hierárquico.
+   - Por exemplo, há que épico. Se existir um, ela está ligada 
+   - ou uma observação 
 
-o que foi definido nessa história.
+![image](https://user-images.githubusercontent.com/52088444/232571834-503d7b5d-44fa-4556-b820-ac0acd856464.png)
+  
+  Importante e que normalmente as histórias de usuários são estimadas em pontos de história e as tarefas em horas.
 
-Uma história de usuário deve ser independente das demais, pois assim ela pode ser desenvolvida a qualquer
+**Critérios de aceitação 
 
-momento, sem ter que depender de outras.
+Para que uma história seja considerada completa, além de sua descrição, é preciso definir os seus critérios de aceite ou de aceitação. 
 
-Normalmente usamos cartões ou post-its para escrever histórias de usuário e as fixamos em um quadro
+Esses critérios representam o que ela precisa fazer para ser considerada válida pelo dono do produto e futuramente pelo cliente. A maneira mais simples de definir os critérios de aceitação de uma história seria listar no seu verso os itens de negócio que expressam a forma de usar a funcionalidade construída com o objetivo de o dono do produto e o cliente validarem se a história foi completada da maneira solicitada.
 
-chamado de screen board ou quadro de tarefas.
+Da mesma forma que as histórias de usuário, os critérios de aceite devem ser breves e objetivos, mostrando uma lista simplificada de itens que ajudarão na validação e conferência da história, e que também podem servir de lembretes para regras de negócio que precisam ser atendidas. 
 
-Esses cartões ou post-its são uma das formas mais simples e eficazes de se controlar a mente.
+Exemplo: para história de usuário como cliente da loja esportiva, quero poder procurar por uma determinada peça de roupa para que possa escolher a que melhor se adapte ao esporte que gosto.
 
-Eles normalmente contêm a história ou a tarefa a ser desenvolvida, além de outras informações que podem
+Podemos ter os seguintes critérios de aceitação:
 
-ser acrescentadas, tais como prioridade esforço em pontos de história, tempo estimado em horas.
+- João poderá informar o nome parcial do tipo de roupa que está procurando.
+- Uma lista de peças deve ser mostrada com base no nome informado.
+- Uma mensagem deverá ser mostrada caso nenhuma peça seja encontrada.
 
-Quem é o responsável pela tarefa?
+![image](https://user-images.githubusercontent.com/52088444/232573349-da1a8068-c49a-4c53-b149-6cc09cc7247f.png)
 
-Indicativo hierárquico.
-
-Por exemplo, há que épico.
-
-Se existir um, ela está ligada a uma observação importante e que normalmente as histórias de usuários
-
-são estimadas em pontos de história e as tarefas em horas, como veremos em aulas futuras.
-
-Critérios de aceitação Para que uma história seja considerada completa, além de sua descrição, é preciso
-
-definir os seus critérios de aceite ou de aceitação.
-
-Esses critérios representam o que ela precisa fazer para ser considerada válida pelo dono do produto
-
-e, futuramente, pelo cliente.
-
-A maneira mais simples de definir os critérios de aceitação de uma história seria listar no seu verso
-
-os itens de negócio que expressam a forma de usar a funcionalidade construída com o objetivo de o dono
-
-do produto e o cliente validarem se, a história foi completada da maneira solicitada.
-
-Da mesma forma que as histórias de usuário, os critérios de aceite devem ser breves e objetivos, mostrando
-
-uma lista simplificada de itens que ajudarão na validação e conferência da história e que também podem
-
-servir de lembretes para regras de negócio que precisam ser atendidas.
-
-Exemplo para história de usuário como cliente da loja esportiva, quero poder procurar por uma determinada
-
-peça de roupa para que possa escolher a que melhor se adapte ao esporte que gosto.
-
-Podemos ter os seguintes critérios de aceitação.
-
-Johan poderá informar o nome parcial do tipo de roupa que está procurando.
-
-Uma lista de peças deve ser mostrada com base no nome informado.
-
-Uma mensagem deverá ser mostrada caso nenhuma peça seja encontrada.
 
 ##  Ferramenta INVEST
+
+
+
+Uma boa história de usuário precisa estar bem escrita e que seja de fácil entendimento.Você já deve ter notado que o custo de elaboração de uma história de usuário não é medido por palavras. O que importa é que qualquer pessoa do time e de fora dele que tenha um mínimo de entendimento sobre o projeto, consiga entender o que precisa ser feito.
+
+E a técnica investe é uma ótima forma para elaborarmos histórias de usuário. Investe vem do acrônimo em inglês de:
+
+
+![image](https://user-images.githubusercontent.com/52088444/232573851-ee5fde47-e597-4662-bcbb-ac1cacc89c56.png)
+
+
+
+Assim, essa técnica nos diz que uma boa história de usuário deve possuir seis características:
+
+- Independente: Histórias são mais facilmente trabalhadas quando são independentes, ou seja, quando podemos implementá-las em qualquer ordem, já que não são intimamente ligadas, gerando uma cascata que pode virar um gargalo de implementação. Esta, sem dúvida, é uma característica muito difícil de ser alcançada, porque, querendo ou não, uma história sempre será dependente de outra. Mas isso não deve te impedir de tentar decompor até um nível bem próximo da independência.
+- negociável: Histórias não são contratos a ferro e fogo para implementar funcionalidades. Boas histórias captam a essência e não os detalhes.Definida a essência, os detalhes são negociados com o dono do produto.
+- valiosa: A premissa básica de uma história é que ela agrega valor ao produto. Muitas vezes as histórias começam a ser decompostas e quando fazemos isso, temos que ter o cuidado de não transformar em algo que entregue apenas uma parte da funcionalidade, o que não traria valor nenhum para o cliente.
+-  estimável: Não precisa ser algo exato. O time não precisa acertar sempre, mas o time precisa ser capaz de estimar uma história da mesma forma que uma história estimável pode ser negociada. Ninguém consegue estimar uma história que não entende.
+- Small Boas histórias são pequenas. Elas entram no acordo entre os desenvolvedores e o dono do produto sobre o tamanho máximo de uma história dentro da Sprint. Além disso, quando as histórias são menores, há chances maiores de ter uma estimativa mais precisa. É o típico caso de quando o desenvolvedor chuta para cima a estimativa de uma história por não entender o que implicaria sua implementação. Se o time usar essa frase durante a reunião de planejamento, significa que a história deve ser revista,
+- testável: É preciso testar sempre. Ter estabilidade sempre foi uma característica de bons requisitos. O mesmo é plenamente aplicável às histórias de usuário. Se o cliente não sabe como testar, significa que ou a história não está claro o bastante ou que ela não contém algo que acrescente valor aos olhos do cliente.
+
+Seguir estes pontos é importante para o dono do produto no desenvolvimento da história de usuário e para o entendimento dos desenvolvedores, já que são estes que irão implementá la. É preciso que todos estejam alinhados com o conceito de cada um desses critérios.
+
 ##  Spikes
-##  Definição de Preparado ou Ready
+
+
+Esse é um termo bem comum, mas veremos agora o que ele significa. Imagine se deparar com um projeto que deve ser desenvolvido com uma tecnologia ou arquitetura que nenhum membro da equipe conhece. Ou então a organização resolve desenvolver um produto inovador e diferente de seus produtos padrão até o momento.
+
+Você está diante de um cenário de alto risco e alta incerteza para cenários onde requisitos, recursos ou tecnologia são desconhecidos, ou apresentam muito risco.
+
+Utilizamos a técnica chamada de spikes, que é um curto exercício de prova de conceito onde equipe investiga a um problema ou risco.
+
+O espike, que pode ser uma história de usuário, ou mesmo um conjunto de histórias de usuário de uma determinada interação.
+
+Também pode ser desenvolvido na primeira iteração do projeto para se decidir se vale a pena continuar com o projeto ou não.
+
+O grande benefício de se utilizar spikes é identificar falhas ou inviabilidade do projeto logo no seu início, garantindo que o orçamento do projeto não seja gasto em fracasso.
+
+Esse conceito é normalmente conhecido como falha rápida.
+
+##  Definição de Preparado ou Definition of Ready
+
+Já vimos que os requisitos de maior prioridade, colocados mais acima no backlog do produto, são aqueles que serão mais detalhados, enquanto os requisitos com menor prioridade terão informações muito básicas, como por exemplo, somente o nome da história de usuário ou do requisito.
+Muitas vezes tem se a falsa impressão de que o dono do produto se limita a criar uma linha com a definição da história de usuário e que os desenvolvedores vão, como por mágica, criar a funcionalidade, o que é um erro fatal.
+
+O dono do produto muitas vezes vai precisar detalhar os itens do backlog do produto, mas até que ponto esses requisitos precisam ser detalhados? Eles devem ser detalhados até atender o conceito de preparado ou ready, que significa que o requisito tem informações suficientes para começar a ser desenvolvido e imediatamente.
+
+Esta definição deve ser elaborada por cada organização, para cada projeto, dentro da organização ouaté mesmo por cada time scrum. E ela precisa identificar quais são as exigências de documentação de requisitos acordadas para o melhor desenvolvimento das funções. Por exemplo, a definição de ready pode indicar que deve existir determinado diagrama, deve ter um rascunho de interface, deve ter sido formalmente homologado com os usuários, deve estar em um determinado formato ou qualquer outra necessidade.
+
+Uma boa prática é definir uma linha de corte que indica até qual requisito do backlog do produto deve estar atendendo a essa definição. Este trabalho de detalhamento, ou, como costumamos chamar, refinamento do backlog do produto, é realizado durante a Sprint.
+
+É uma atividade de responsabilidade do dono do produto, em que ele vai atualizando e detalhando as informações conforme os requisitos vão caminhando para o topo do backlog do produto. O dono do produto idealmente deverá trabalhar pelo menos 1 sprint à frente neste detalhamento, mas isso não impede que funcionalidades detalhadas sejam retiradas da fila de desenvolvimento da próxima Sprint, pois assim é a dinâmica de atualização do backlog do produto. No entanto, deve-se evitar que itens não detalhados entrem em uma sprint e muitas vezes os desenvolvedores acabam por não permitir a inclusão de itens que não atendam a definição de preparado no backlog da Sprint.
+
+Além disso, o dono do produto não deve tentar detalhar todo esse backlog com muita antecedência, poispode correr o risco de gerar documentação desnecessária, detalhando funcionalidades que, em um futuro nem muito distante, não precisarão mais ser desenvolvidas.
+
+
+
 ##  Ferramentas de Priorização
+
+A priorização é uma das principais preocupações dos donos de produto. A necessidade de priorizar vem de um fato muito simples nós simplesmente não temos recursos suficientes para trabalhar em tudo o que podemos criar. Nos projetos ágeis é decisivo definir as prioridades ou importâncias dos itens de backlog que serão implementados, uma vez que os projetos ágeis e o scrum defendem que se deve investir mais esforço nos itens mais importantes do backlog, ou seja, naqueles itens que agregam mais valor ao cliente que utilizará o produto. Mesmo assim, porque trabalhar primeiro com os itens mais importantes?Porque são esses itens que realmente farão a diferença para o cliente na entrega que ele espera receber.
+
+Geralmente estes itens são os maiores ou os mais complexos, e, por consequência, são aqueles quesofreram mais com os riscos e mudanças.
+
+Então, se os maiores riscos geralmente ocorrem nos itens mais importantes, é melhor tratá-los o quanto antes, pois assim o time terá tempo para recuperação e adaptação. Não pense no que é mais importante para você ou para sua visão de importância para o projeto. Pense na visão do cliente, pergunte a ele, converse com os stakeholders e entenda com eles o que é realmente mais importante para esse projeto.
+
+**A seguir, apresentamos dois métodos muito simples de priorização do backlog do produto:  
+
+- priorização simples: A forma mais comum de priorizar itens e usar a contagem de 1 a 10, sendo que o mais importante é um e os menos importantes vão se seguindo até o dez. Porém, geralmente nos projetos ágeis se prefere trabalhar com importância ao invés de prioridade, que é simplesmente quanto maior o número, maior a importância.
+![image](https://user-images.githubusercontent.com/52088444/232579167-772cbae3-8f7b-4049-9b44-20de87742025.png)
+
+- Priorização Ponto-100: a primeira diferença no uso da importância é que o maior número é sempre o mais importante, e outra é que simplesmente se elege um valor qualquer para ser o item mais importante, por exemplo 100, e os itens menos importantes recebem um valor qualquer abaixo de 100, mas com intervalo razoável, por exemplo, 80. Isso permite que, se durante as próximas análises dos itens for descoberto um menos importante que o 100, é mais importante que 80 é possível encaixá-lo sem mexer na priorização dos outros e sem repetir uma importância já utilizada. E se aparecer um item mais importante que o 100, neste caso de importância simples, diga que ele vale 120, por exemplo. Com a importância, não é preciso se prender a intervalos pré definidos. Esta é a maneira mais fácil de determinar uma ordem de importância para todos os itens de backlog, permitindo também definir uma importância distinta para cada item, não sendo necessário repetir prioridades ou refazer a priorização.
+
+Por falta de números, procure dar uma importância distinta para cada item. Isso realmente vai ajudar no futuro a saber rapidamente qual item é mais importante do que o outro. E tem em mente que um momento de decisão sempre há algo mais importante.
+![image](https://user-images.githubusercontent.com/52088444/232579850-c77cd685-4020-4426-9629-74d82c34f66f.png)
+
 ## Ferramentas de Priorização - Moscow
+
+Uma das mais famosas ferramentas de priorização em projetos ágeis é a técnica Moscow.
+
+Dizem que o tempo é infinito, físicos teóricos concordam com isso, mas pergunte para qualquer envolvido em projetos o que ele acha. Não importa o que você está entregando em seu portfólio, o projeto nunca parece haver tempo suficiente para entregar tudo o que o cliente quer.
+
+Na maioria das vezes, acabamos negociando o escopo, ou seja, entramos em um acordo sobre quais itens de escopo são obrigatórios e quais podem ser ignorados sem alterar o negócio do cliente.
+
+E para ajudar nessa negociação, podemos usar um dos métodos mais populares de priorização de escopo ou histórias que a técnica chamada Moscow:
+
+![image](https://user-images.githubusercontent.com/52088444/232580465-5be37ef7-6ae2-4e0c-87cc-d6f0d1b9ff63.png)
+
+
+**Esse nome deriva das primeiras letras das palavras 
+- must have -> deve ter
+- should have ->deveria ter
+- could have-> poderia ter
+- won't have this time->  não terá agora.
+
+Esse método de priorização é geralmente mais eficaz do que outros métodos mais simples, que apenas consideram os itens como vai ter ou não vai ter.
+
+No esquema Moscow, os itens avaliados estão em ordem de prioridade decrescente, sendo que deve ter, são as histórias de usuário que  sem as quais o produto não terá valor e não terá agora, como aquelas que não são necessárias.
+
+Esta é uma ótima técnica para ser exercitada pelo dono do produto em conjunto com o cliente, pois facilita o entendimento do que é realmente importante para o projeto.
+
+**Como aplicar o método?
+
+Mesmo sendo uma técnica de simples aplicação, se você não tiver um método estruturado, ela não vai servir para nada.
+
+É importante que você e sua equipe entendam o objetivo do projeto. Obviamente, a meta do produto deve ser utilizada para isso, em seguida, com a lista preliminar do backlog do produto, avalie item, a item ou as principais partes interessadas.
+
+Os métodos ágeis defendem que o cliente deve estar sempre presente, mas nem sempre isso é possível já que em alguns casos o produto será desenvolvido para o mercado consumidor em geral. Assim, neste caso, identifique pessoas chave, tais como patrocinador do projeto, diretores de marketing, etc que estão envolvidas com o projeto. 
+
+Cada item deverá ser classificado entre uma das quatro possibilidades citadas. Veja que nem sempre é tão simples assim, pois alguns irão querer itens totalmente diferentes de outros. Então, a recomendação é que ao invés de começar com todos os itens na categoria "Must have" e em seguida rebaixar algumas delas. Pode ser útil colocar todos os itens na categoria Should Have(deveria ter) primeiro e, em seguida, discutir por que uma determinada funcionalidade merece subir na lista.
+
+Depois dessa classificação, desafie criticamente cada uma delas. Seja particularmente vigilante sobre quais itens chegam à lista de" must have(deve ter)", já que estas são obrigações, ou seja, sem isso o produto não será considerado viável.
+
+Lembre-se essa classificação "must have" é reservada apenas para itens que resultariam na falha do projeto se não forem concluídas.
+![image](https://user-images.githubusercontent.com/52088444/232582110-fa1031ab-9236-4f8b-880f-2fbf6f95f73e.png)
+
+Seria como um celular que precisa permitir que o cliente consiga fazer ligações telefônicas dentro da área de cobertura. Sem isso, o celular seria um fracasso, concorda?
+
+Mas, classificar como as reve para esse mesmo celular a presença de uma câmera fotográfica de 90 megapixels com lentes banhadas a platina vinda do planeta Mercúrio não faz muito sentido, pelo menos em um primeiro momento. Tente chegar a um consenso com todos no grupo. Se você não pode. Então você precisa trazer um tomador de decisões chave que tenha a palavra final.
+
+A última etapa é compartilhar a lista de prioridades com os membros da equipe, principais interessados e clientes.
+
+É importante que você comunique os motivos de cada categorização, principalmente com itens obrigatórios ou os must have.
+
 ##  Ferramentas de Priorização - Story Mapping
+
+As ferramentas de priorização dificilmente levam em conta dependências entre itens, o que pode gerar uma lista ordenada, mas que não necessariamente será executada na sequência de priorização.
+![image](https://user-images.githubusercontent.com/52088444/232582916-ac9de6d7-2ae0-4164-ba88-15d2c3ba9efa.png)
+
+
+É aí que surge a técnica  User Story Mapping, esta técnica foi proposta por Jeff Patton e ela cria não uma simples lista de itens de backlog do produto, mas um mapa das histórias de usuário. Obviamente, sugere se que a aplicação do método seja feita em grupo, onde todos os envolvidos analistas de negócio, analistas de marketing, analistas, desenvolvedores, designers, clientes, usuários, entre outros possam dar sua contribuição.
+
+Para usar essa técnica, você vai precisar de uma parede, uma mesa ou um flip chart, post-its, canetas e um time multidisciplinar com entre 4 e 8 participantes.
+
+Mais fases do método:
+
+- listar as histórias de usuário: neste momento, é recomendado realizar um brainstorming conjunto com toda a equipe presente. Deve se levantar uma lista de funcionalidades do produto e pensar em conjunto:
+    -  quais são as funcionalidades que o usuário poderá executar com este produto?  
+      -  Mantenha sempre o ponto de vista do usuário ao responder essa pergunta, focando nas tarefas dos usuários, sem entrar em detalhes de implementação. É    sugerido levantar uma lista com cada item e que comece com um verbo. Lembre se sempre de pensar do ponto de vista dos usuários.
+![image](https://user-images.githubusercontent.com/52088444/232583886-2d3bef57-afb0-4b7e-89d5-23f077584ff5.png)
+
+  Exemplo: 
+     - selecionar um produto, 
+     - escolher a forma de pagamento,
+     - pagar pelo produto,
+     - escrever um comentário,
+     - publicar nas redes sociais, entre outros.
+
+  - Escrever as histórias do usuário em cartões de histórias. Depois de um levantamento inicial de funcionalidades. É necessário escrever em um cartão ou post-it diferente cada item proposto. A forma de escrita nos cartões deverá ter ainda mais três informações, que são: o usuário, a frequência de uso daquela funcionalidade e o valor de negócio que ela tem.
+  ![image](https://user-images.githubusercontent.com/52088444/232585150-40740793-3352-44ab-bb7c-f12fc678e5f1.png)
+
+
+O usuário poderá ser representado por uma proto persona pela sua profissão ou pelo papel que desempenha. Exemplo administrador ou comprador ou ainda vendedor. A frequência de uso pode ser mais precisa. Por exemplo, diariamente, semanalmente, quinzenalmente, entre outros. Já o valor para o negócio pode utilizar as seguintes expressões baixo, médio ou alto.
+
+**Ordenar em um fluxo de tarefas.
+
+Para o próximo passo é necessário ordenar os cartões e uma sequência lógica de tarefas, com o objetivo de contar uma historinha de como o sistema funciona.
+
+Por exemplo, inicialmente o usuário escolhe um produto. Depois, ele define os detalhes do produto. Depois, ele realiza sua compra e, no final, compartilha a compra nas redes sociais com seus amigos.
+
+O objetivo aqui é contar uma história de como o sistema funciona. Se houver necessidade, post-its podem ser sobrepostos, o que indica que são ações que acontecem ao mesmo tempo.
+![image](https://user-images.githubusercontent.com/52088444/232585461-23725296-b996-4a43-8555-918c16e83f85.png)
+
+
+**Priorizar e organizar verticalmente (conforme a criticidade)
+
+Após definir a ordem dos cartões em um fluxo de tarefas que faça sentido para a equipe, e pensando sempre na melhor experiência dos usuários, o próximo passo é priorizar e organizar verticalmente as tarefas. Esta é a etapa em que se devem ajustar os cartões conforme a prioridade para o cliente verticalmente, conforme as histórias de usuários se tornem mais importantes. A ordem ficará mais no topo do gráfico. As histórias de usuário que estavam inicialmente sobrepostas e que aconteciam ao mesmo tempo que outras tarefas devem ser priorizadas, nunca se esquecendo de levar em consideração sua importância para o usuário.
+
+![image](https://user-images.githubusercontent.com/52088444/232585864-681bd858-5efa-4dd9-ab58-91552550fa25.png)
+
+**Agrupar por atividades, macros ou temas.
+
+Nesse momento, backlog é um mapa de história de usuário onde a identificação de cada cartão é, na verdade, uma atividade de agrupamento das tarefas em segmentos ou grupos representados pelos usuários no sistema.
+
+Segundo o criador desta técnica, torna se necessária uma quebra no fluxo das tarefas pelo fato de poder acontecer mudanças de usuários, regras de negócios e processos são o que chamamos de temas. No exemplo do site de roupas esportivas, alguns temas podem ser: pedido venda, entrega e em cada um dos temas teremos várias histórias e veja que o fluxo de compra atravessa esses três temas.
+
+O cliente faz o pedido, efetua a compra, ou seja, o site vende e, por fim, o cliente recebe o produto. 
+
+![image](https://user-images.githubusercontent.com/52088444/232586452-31397b1c-68d8-4fdb-b628-f984a2a3c7e9.png)
+
+**Selecionar o primeiro, Release 
+
+Selecione o menor e mais conciso o número de funcionalidades e que torne o primeiro Release  minimamente util ou MVP produto mínimo viável para o usuário e para o contexto do negócio. Trace linhas horizontais que irão representar os releases. A linha, mas ao topo se refere a primeiro Release, ele que possibilita a entrega de um produto mínimo viável. É a versão mais simples e com valor suficiente para ser lançada, onde as pessoas possam começar a utilizar o sistema ou o produto Mínimo viável.
+
+![image](https://user-images.githubusercontent.com/52088444/232588463-c2e3ce14-6662-49a6-bb75-9a4f4ce3304e.png)
+
+
+Uma das coisas mais interessantes em se utilizar user Store mapping é o fato deste método ter uma característica colaborativa e que estimula a participação e discussão entre equipe sob, é claro, o ponto de vista dos usuários.
+
+Através deste diálogo, é possível estimar o esforço total necessário para execução do primeiro release do sistema, ou seja, após a identificação do primeiro, realize a marcação e a programação dos próximos poderão continuar com a realização de novas estimativas e também realizando o levantamento de quais funcionalidades estarão contidas em cada cartão.
+
+Este é mais um momento importante do uso deste método, pois cada membro da equipe e stakeholders poderão trazer sua visão e experiência de negócio em conjunto com uma abordagem ágil para evitar que funcionalidades desnecessárias sejam criadas e desenvolvidas durante as próximas fases do projeto.
+
+O que são releases de software?
+Um Release é a entrega de um sistema funcional que atende objetivos predefinidos. Um release pode ser interno ou externo. Um release interno é usado apenas pela organização de desenvolvimento, como parte de um marco, ou para fazer uma demonstração para usuários ou clientes.
+
+
 ##  Ferramentas de Priorização - Ordenação Relativa
+
+Uma das técnicas de ordenação dos itens do backlog do produto é ordená-los a partir da comparação 1 A 1, e esta forma é bem eficaz quando a quantidade de itens é baixa. Neste caso, um facilitador vai apresentando item por item para o grupo e ordenando-o de acordo com critérios pré estabelecidos.
+
+Entretanto, quando a lista de itens é muito extensa, é necessário um outro tipo de dinâmica para que o processo flua de maneira mais adequada. Por essa razão, podemos usar a técnica de ordenação relativa ou por turnos.
+
+Você vai precisar de:
+
+- lista de cartões ou post-its com as histórias de usuário ou tarefas já definidas. 
+- Espaço físico suficiente para acomodar todos os cartões de forma visível 
+- e um segundo espaço de mesmo tamanho, onde será montada a lista ordenada. 
+- Estabeleça o critério de comparação entre os itens, tais como complexidade, valor de negócio, etc.
+
+**Como fazer?
+
+Como o objetivo é que o grupo crie uma lista ordenada de itens, é importante seguir um conjunto de regras simples para que o trabalho possa fluir de forma adequada.
+
+E que são:
+
+- Escolha um cartão que servirá como referência inicial para comparação com os demais. Uma pessoa pega um cartão da lista não ordenada e compara com o cartão referência. Se achar que o cartão que está com ele é maior que o cartão referência, deve colocá-lo em uma posição abaixo do cartão referência. Se achar que é menor, deve colocá lo acima.
+![image](https://user-images.githubusercontent.com/52088444/232588593-faf6b3ac-f00d-4a56-b470-59f24a823fcb.png)
+
+
+Veja que uma pessoa só pode fazer um movimento por vez. Outra pessoa pega outro cartão e faz a mesma comparação. Há a possibilidade de pegar o cartão já ordenado anteriormente e reordená-lo.
+![image](https://user-images.githubusercontent.com/52088444/232589115-51422f04-0af8-437f-9668-d0f09e021f04.png)
+
+
+A única restrição é não fazer o movimento contrário ao recém executado. O número de turnos necessários para a conclusão da dinâmica varia de caso a caso, sendo dependente primeiramente pelo número de itens existentes. Com isso, uma mesma pessoa poderá ter múltiplos turnos.
+
+
 ##  Roadmap do Produto
+
+Um roadmap de produto é um plano que combina os objetivos do negócio às necessidades e desejos dos clientes em relação a esse produto e as tarefas necessárias para atingir esses objetivos.
+
+É muito comum que produtos sejam lançados de forma faseada, ou seja, existirão entregas parciais ou releases e, sendo assim, o roadmap é a melhor forma de representar isso. O roadmap do produto surge a partir do backlog do produto e facilita o diálogo entre o time scrum clientes e todas as partes interessadas sobre a sua evolução, indicando a todos o que se pretende alcançar em alto nível ao longo do projeto.
+
+Ele é também útil para a estratégia da organização, uma vez que ajuda a coordenar o desenvolvimento e entregas de produtos relacionados, além de outras atividades necessárias.
+
+A responsabilidade pela criação e manutenção do roadmap é do dono do produto, com a ajuda do restante do time Scrum e quaisquer outras partes interessadas.
+
+O formato sugerido:
+
+![image](https://user-images.githubusercontent.com/52088444/232589908-2187b5fc-c620-4f22-b6d8-575a5b9f7c61.png)
+
+é representado por uma linha no tempo que contém marcos, ou seja, datas aproximadas no futuro e objetivo do produto a serem alcançados em cada uma delas.
+
 ## Plano de Releases
+
+À primeira vista, o roadmap do produto e o plano de releases parece ser a mesma coisa, mas não são. Um roadmap define uma visão estratégica de onde e para onde o produto está caminhando a médio e longo prazo.
+
+![image](https://user-images.githubusercontent.com/52088444/232590001-4e48bac5-2744-4bf3-8f88-bdfc58497773.png)
+
+O roadmap está vinculado à visão e aos objetivos estratégicos da organização, geralmente ao longo de vários meses.
+
+Em contra-partida, o plano de releases ou plano de lançamentos, embora compartilhe muitas das mesmas informações, é a execução desse roadmap ou ainda, o plano de releases está intimamente vinculado ao backlog do produto.
+![image](https://user-images.githubusercontent.com/52088444/232590097-8f34a974-6796-4e2f-b6e4-026a58371d54.png)
+
+Mas veja que o backlog do produto em si não é o roadmap. O roadmap comunica a organização, o panorama geral, as iniciativas que movem os ponteiros, expandem os mercados, abordam a concorrência e criam valor para o cliente. Esse tipo de pensamento não pode ser extraído do backlog ou do plano de releases, já que, no fundo, esses são listas de entregas do que o roadmap sugere como o caminho a ser percorrido.
+
+É desafiador comunicar a estratégia em uma lista com 200 itens, especialmente para executivos e outras partes interessadas, que podem não pensar em termos de iterações ou sprints.
+
+Um roadmap fala em termos de épicos e temas, enquanto o plano de releases indica os recursos detalhados e outras tarefas necessárias para entrega do produto.
+
+![image](https://user-images.githubusercontent.com/52088444/232590357-b0382bc8-a37f-4755-bccb-5f0b8a82aa70.png)
+
+De certa forma, o backlog do produto e o plano de releases são a tradução de como a sua equipe fornecerá a visão descrita no roadmap do produto.
+
+Um release e a representação de uma entrega de produto em produção. Ele é comumente planejado através de uma cerimônia chamada Planejamento do Realese. Release são planejados principalmente em ambientes onde estas entregas precisam ter uma data fixa, ou seja por necessidades de mercado, eventos como conferências, lançamentos de produtos e etc. ou principalmente em grandes empresas que fabriquem produtos complexos para seguir um roadmap de análises corporativos.
+
+![image](https://user-images.githubusercontent.com/52088444/232590553-59d12d73-9bf2-4a8b-ad8b-4ad94f68f1b5.png)
+
+
+**Formato sugerido 
+
+O plano de lançamentos ou plano de Release nada mais é do que uma lista com as principais entregas previstas do roadmap do produto, com algumas informações básicas, tais como: O nome, um nome curto e descritivo para release pode conter apenas um número de identificação, como também pode ter um nome específico que seja significativo para o time e para o cliente.
+![image](https://user-images.githubusercontent.com/52088444/232590789-e48fdbc2-5735-4772-b946-ebd111c7fdfe.png)
+
+
+-Sprints de composição: Releases normalmente são compostas por uma ou mais sprints. Por isso, é interessante que você identifique quais são elas. Não se preocupe em tentar planejar todo o projeto com antecedência.Este é um planejamento de datas de alto nível e que deve ser refinado ao longo de todo o projeto. O comum é ter planejado pelo menos o primeiro release ou ao menos parte dele.
+
+- Datas de entrega das Sprints: Obviamente, é interessante que você identifique as datas de entrega das sprints, pode ser que logo no início deste planejamento você ainda não tenha essas datas exatas, mas não tem problema quando você as tiver, pode informá-las.
+
+- Data de lançamento Muitas vezes, esta data coincide com a data de entrega da última sprint prevista, mas às vezes não. O que normalmente acontece é que as empresas avisam ao mercado sobre lançamento de uma nova versão de um produto e é essa data que tem que ser colocada aqui e que, de preferência, seja posterior ao final da última sprint prevista.
+
+- Observações são informações adicionais que sejam pertinentes ao realizem o planejamento.
+
