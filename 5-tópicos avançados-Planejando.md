@@ -265,8 +265,298 @@ Já se os desenvolvedores verificarem que sobrará tempo juntamente com o dono d
 
 
 ## O que são Pontos de História
+
+Os pontos de história são unidades subjetivas, é uma estimativa utilizada por times ágeis para estimar as histórias de usuário.
+
+Os pontos de história representam a quantidade de esforço requerido para implementar uma história, podendo também ser entendidos como uma medida de complexidade.
+
+Deve-se ter em mente que, ao se estimar o esforço, podemos apenas e somente considerar a quantidade de esforço necessária para se concluir uma atividade sem considerar qualquer gordura extra, pu seja, interrupções para ir ao banheiro, tomar café, atender telefone e etc.
+
+**Por que estimar em pontos de história?
+
+Pontos de história são baseados em medidas relativas por comparação de uma história com uma história padrão previamente estimada.
+
+Medidas relativas tendem a ser mais assertivas em grandes amostragens em comparação com a tentativa de se estimar isoladamente cada item.
+
+Como uma analogia, é mais fácil dizer que se leva o dobro do tempo para ir de Guarulhos até a Paulista do que da Ponte do Limão para a Paulista.
+
+A título de curiosidade, sem trânsito, você leva em média 20 minutos da Ponte do Limão até a Paulista e cerca de 40 minutos de Guarulhos até a Paulista.
+
+O uso da analogia se explica pelo fato de que times estimarão mais rapidamente o esforço, se não tiverem de analisar e acertar o exato número de horas ou dias necessários para concluir uma atividade.
+
+Os pontos ou números que são utilizados normalmente são baseados na regra de Fibonacci, mas isso não é obrigatório.
+
+![image](https://user-images.githubusercontent.com/52088444/232638086-d07136e8-530e-4ba7-912d-bf3307e853ac.png)
+
+Essa sequência é utilizada por ser uma escala não linear, permitindo que haja variabilidade na estimativa e impedindo que se faça a regra de três para estimar as horas de trabalho. Com isso, faz com que ao longo do projeto, as pessoas se foquem mais no valor agregado enquanto os pontos foram terminados. Que no esforço empenhado em fazer o trabalho. Assim, esforço sem resultado não serve para nada.
+
+**Quando realizamos as estimativas? 
+
+as estimativas podem ser realizadas nas reuniões de refinamento e também durante a reunião de planejamento da Sprint. A equipe definirá as histórias que serão estimadas através de pontos de história, baseando-se na priorização previamente mapeada pelo dono do produto.
+
+Como estimamos em pontos inicialmente, escolhemos uma história para ser utilizada como padrão ou régua. E estimamos os pontos para se concluir essa história. Basicamente, utilizamos duas estratégias para escolher qual história será utilizada como padrão na comparação com as demais.
+
+Escolher a melhor história é atribuir um valor baixo, podendo ser um ou dois, por exemplo, ou escolher uma história com tamanho médio é lhe atribuir um valor entre 2 e 5, por exemplo.
+Ao se estimar uma história em cinco pontos, sabemos que ela é mais complexa que uma história estimada em três. E mais simples que uma história estimada em oito pontos. Lembre-se que a escolha do valor ou ponto para uma história deve levar em consideração o esforço necessário para se finalizar esta história, em comparação com o esforço necessário para se finalizar a história padrão.
+
+Por exemplo: se utilizarmos a história, cadastrar endereço como padrão e atribuirmos o valor dois, poderíamos estimar que a história cadastrar o usuário possuirá valor cinco, pois seu tamanho é um pouco maior do que duas vezes o tamanho da história padrão 
+
+**definida a pontuação das histórias:
+
+Neste exemplo: a história A1, que é permitir o upload da foto do usuário, é a mais simples, por isso ganha um ponto.
+
+A história três tem o dobro da complexidade da história Um Na minha opinião, nessa história o usuário poderá alterar a senha de acesso.
+
+na história Quatro pensei que deixar gravado o carrinho de compras para uma compra futura poderia ser bem mais complicado que deixar um usuário alterar a senha, por isso, dei um valor maior em pontos de história para ela.
+
+Já na história dois, a última e mais complexa desse grupo, pensei em todo o processo de entrega, entre o fechamento da compra, geração de maneio e emissão da nota de remessa, achei que 21 vezes mais complexa que a história um seria demais, já que os cálculos de imposto seriam feitos a partir de outra história. E sendo assim, nesta eu apenas herdaria essas informações. Então, optei por marcar com 13 pontos.
+
+![image](https://user-images.githubusercontent.com/52088444/232638836-b0daa2d2-430c-4f50-9f28-6209d69e6d9d.png)
+
 ## Ferramentas de estimativa - T-Shirt
+
+Usar números é a abordagem mais comum para estimar pontos de história, mas, às vezes, as equipes se encontram analisando detalhes técnicos ao invés de tentar chegar a um número de pontos. E nesta aula veremos uma técnica simples que evita isso. Se você perceber que os membros da equipe estão ficando presos na ideia de que o número de pontos associados a uma história tem algo a ver com o número de horas envolvidas na entrega do valor dessa história, pode ser mais eficaz você mudar a técnica de estimativa para um sistema não numérico, como o dimensionamento de camisetas ou t-shirt.
+
+![image](https://user-images.githubusercontent.com/52088444/232639385-3f68c00f-257a-452a-88f8-b17456cf8522.png)
+
+
+Com esta técnica, a equipe é solicitada a estimar se eles acham que uma história, esta pequena,  média, grande ou extra grande ou extra-extra -grande ao remover a precisão implícita de uma pontuação numérica. A equipe fica livre para pensar de maneira mais abstrata sobre o esforço envolvido em uma história. Algumas equipes adotam abordagens criativas, como o uso de raças de cães para estimar histórias. 
+
+Por exemplo, essa história é claramente um chihuahua, mas a outra é um São Bernardo. Envolver o lado divertido e criativo da equipe enquanto eles estimam histórias técnicas, pode ser eficaz para tirá-los de seus processos de pensamento analítico e levá-los para uma mentalidade mais flexível e relativa. Existem algumas questões práticas a serem consideradas ao adotar o dimensionamento de camisetas para estimativa de histórias.
+
+Por um lado, as escalas não numéricas são geralmente menos granulares, embora isso possa acelerar o processo de votação, reduzindo o número de opções, também pode reduzir a precisão das estimativas de velocidade.
+
+Além disso, a capacidade de comparar histórias entre si pode ser um pouco mais complicada, uma vez que não existe uma relação matemática clara entre um médio e um extra pequeno.
+
+![image](https://user-images.githubusercontent.com/52088444/232639495-275b9b5a-ff0e-46ff-8823-76ebe410b06e.png)
+
+
+Escalas de tamanho de camisetas também podem exigir esforço extra por parte da pessoa que coordena um processo ágil. Os tamanhos das camisetas precisam ser convertidos em valores numéricos para acompanhar o esforço ao longo do tempo e mapear uma velocidade estimada para a equipe.
+
+Por esse motivo, embora os tamanhos de camisetas sejam muito eficazes para equipes que estão começando com a agilidade, é uma boa ideia levar a equipe em direção a uma escala numérica mais racional, tal como o planner poker.
+
 ## Ferramentas de estimativa - Planning Poker 1
-## Ferramentas de estimativa - Planning Poker 2
+
+O Planning Poker ou em português Poker do Planejamento, que é uma técnica baseada num consenso para estimar. É um jogo e ao mesmo tempo, um exercício de estimativa. É através da técnica do Planning Poker que podemos estimar o esforço necessário para determinada quantidade de trabalho, tendo como base informações recolhidas do cliente, normalmente sendo através de histórias de usuário.
+
+Essa ferramenta foi definida e nomeada pela primeira vez por James Grandin em 2002 e mais tarde popularizada por Mike com o livro Agile Estimating and PLanning.
+
+Resumidamente, em um jogo de playing poker, cada desenvolvedor recebe um conjunto de cartas com determinados valores, ou o dono do produto apresenta um item do backlog do produto, que geralmente estará no formatode histórias de usuário.
+
+No caso de projetos de software e após uma breve discussão, cada um escolhe uma carta e a coloca virada para baixo sobre uma mesa.
+
+Quando todos colocarem as suas cartas, elas serão viradas para cima e caso não haja consenso entre os valores das cartas apresentadas, as diferenças são discutidas de forma breve e uma nova rodada acontece até que haja convergência e consenso entre todos os participantes.
+
+As discussões devem ser breves e objetivas. Caso contrário, quando geram muita divergência ou dúvidas, isso indica que os itens selecionados ainda não estão prontos para serem estimados e devem ser mais detalhados antes de uma nova rodada de estimativas.
+
+**As cartas do Planning Poker têm valores específicos que normalmente representam pontos de história ou story points.
+
+Às vezes esses valores seguem a sequência de Fibonacci. Mas não há essa obrigatoriedade.
+
+O plano em poker é praticamente um jogo e tem suas regras.
+
+![image](https://user-images.githubusercontent.com/52088444/232639995-916473d7-c68d-4947-a056-0f5f5da444cf.png)
+
+
+Assim, vamos conhecer algumas delas:
+
+- As cartas são numeradas de forma não linear. Por exemplo: 0,1/2,1,2,3,5,8,113,20,40,100, ?, xicará de café
+
+- As cartas com símbolos são duas: A interrogação e uma com o desenho de uma xícara de café.
+
+- Carta zero representa uma história ou tarefa já concluída ou com um tempo muito curto para sua conclusão que não vale a pena ser mensurado, como por exemplo, alguns poucos minutos.
+- Carta 100 representa que uma história está muito grande e o ideal é que ela seja decomposta em mais histórias, pois inclusive o risco de estimar mais errado se torna alto em histórias muito grandes. Essa história de usuário é uma forte candidata a virar um épico.
+- Interrogação representa que a história está indefinida e que, além de não ser possível entender o seu tamanho, não se consegue nem dizer se é muito pequena ou muito grande, e ela deve voltar para o dono do produto e ser refinada.
+- Desenho da xícara de café representa a que o desenvolvedor está sugerindo uma pausa para um café, uma água ou simplesmente um descanso devido a uma reunião estar muito longa e estar gerando cansaço.
+
+**Como jogar?
+
+O time define o menor e o maior tamanho de estimativa a ser usada no jogo. Assim, pode ficar definido que a menor estimativa será o valor dois e a maior estimativa  40. Valores abaixo de dois não precisam ser estimados, ou seja, entram como tarefas simples de desenvolvimento e histórias maiores que 40 devem ser devolvidas ao dono do produto para que sejam convertidas em épicos e então decompostas em novas histórias de usuário.
+
+Veja que estes limites foram estabelecidos para este exemplo, mas nada o impediria de escolher o tamanho 1 para a menor estimativa e 100 para maior.
+
+Se o time ainda é novato na técnica, é interessante começar o jogo estabelecendo uma história guia que ajudará na definição das estimativas de todas as demais.
+
+- Para isso, o time, em conjunto lê a descrição das histórias selecionadas.
+- Em seguida, escolhe uma que nem é a mais fácil de todas, nem a mais difícil.
+- A partir daí, estabelecem o número do meio da escala do baralho, que poderia ser o oito, por exemplo, essa história será a história guia do processo de estimativas. Ela servirá como referência para estimar todas as demais.
+- Agora, cada história de usuário é relida e pontuada. Tomando-se a história guia como referência.
+
+Veja que uma história que demande um esforço maior que a história guia não necessariamente será pontuada com o valor seguinte na escala de pontos, o que neste caso seria o valor 13. O esforço deve ser pontuado seguindo uma proporção relativa do esforço que foi definido. Assim, pode ser que a história seja estimada em 20 pontos, por exemplo,  Já uma história bem mais simples que a história guia pode ser pontuada como três. A proporção entre o tamanho de uma história e outra não é absoluta ou matemática. Isso é somente uma estimativa baseada no que os profissionais entendem que é necessário para executar o trabalho.Não espere que a sua equipe seja muito precisa ou acerte tudo logo de primeira. Ao longo de poucas Sprints, eles se acostumaram com a técnica e se tornaram especialistas em estimativas ágeis.
+
+Uma observação importante: é que, quando estimamos, devemos considerar todo o esforço necessário para que a história de usuário seja considerada pronta, assim, na estimativa entre o esforço de construção e desenvolvimento de interface, testes, documentação e etc.
+
+![image](https://user-images.githubusercontent.com/52088444/232640685-0a9dd62e-4ea8-417c-8c12-ce6f04ed3a1d.png)
+
+## Ferramentas de estimativa - Planning Poker colocando em Ação
+
+Como aplicar a ferramenta de estimativa Planning Poker. Vamos usar o nosso projeto Exemplo: o site de vendas de roupas e materiais esportivos.
+
+Vamos simular algumas rodadas de Planning Poker para determinação do esforço de desenvolvimento de histórias de usuário já pré selecionadas para Sprint. O dono do produto Ler então  a primeira história de usuário é que podemos dizer que seria a seguinte: como usuário, quero acessar o site através do celular e usar todos os recursos, assim como no navegador do desktop.
+
+Todos os participantes devem então pensar um pouco sobre o esforço para desenvolver aquela história, em seguida, mostram as suas cartas todos ao mesmo tempo. O resultado da primeira jogada é o seguinte Lucas colocou oito, Ana cinco, Allan 21, Carlos três e Maria cinco.
+![image](https://user-images.githubusercontent.com/52088444/232641040-a8f7869d-b8ed-40cb-915f-472defa704f4.png)
+
+Pelos resultados, podemos ver que Allan e Carlos não têm uma exata noção de como o item escolhido será desenvolvido.
+
+Alan acha que é muito difícil. Já Carlos, que é fácil, enquanto que os demais consideram dificuldades medianas. Nesta situação. Allan e Carlos, devem explicar porque escolheram essas cartas.
+
+- Allan então diz: teríamos que fazer um outro site para o ambiente mobile. Um novo HTML, CSS, JavaScript e integrar uma nova rotina à já existente hoje, é necessário um grande esforço no design e na programação para que o site se torne mobile. Temos que considerar os plugins utilizados hoje e encontrar similares no mercado para customização.
+- Já Carlos comenta: na verdade, poderíamos utilizar a estrutura já existente hoje, e apenas ajustar o CSS e alguns elementos HTML. Assim, manteríamos tudo junto e o esforço para manutenção seria menor. Devemos levar em consideração que o usuário deseja ter os mesmos recursos, ou seja, seria uma réplica. O site possui muitas páginas dinâmicas e isso faz com que o ajuste em uma replica em várias.
+
+Acontece então uma breve discussão sobre o que foi dito e uma nova rodada é realizada.  E o resultado é o seguinte: Lucas colocou oito, Ana cinco, Alan oito, Carlos cinco e Maria cinco.
+
+![image](https://user-images.githubusercontent.com/52088444/232641390-125bc925-9c20-425a-9b9e-feea303cc68b.png)
+
+Perceba que os valores estão mais uniformes. Com esse cenário, você pode assumir algumas opções e que são:
+
+- continuar a incentivar a discussão até que um consenso entre os membros seja obtido.
+- Fazer uma média dos valores, levando em consideração a proximidade entre eles 
+- ou como os valores estão próximos, assumir o maior valor 
+
+Para o nosso exemplo, vamos optar por escolher o maior valor. Sendo assim, o número de pontos para esse item será oito pontos de história. Esse ciclo de jogadas é repetido para cada item selecionado do backlog do produto. Com o tempo, você facilmente saberá definir quantos pontos de história conseguirá assumir em cada Sprint, ajustando suas estimativas durante o desenrolar do projeto.
+
+Algumas dicas:
+
+- Caso uma história receba as cartas interrogação(?) ou cem(100), significa que os desenvolvedores devem devolver a história de usuário ao dono do produto para novo detalhamento decomposição ou entendimento.
+- Caso os desenvolvedores não cheguem em um acordo sobre a estimativa de uma história, mais de uma rodada deve ser realizada, sempre havendo breves discussões entre uma rodada e outra. Porém, o número de rodadas deve ser limitado e, caso o limite seja atingido sem acordo, o time deve optar pela estimativa mais alta.
+- Geralmente se limita o número de rodadas para estimativas em no máximo quatro por item 
+- em um time a velocidade do mais lento deve ser considerada a velocidade do time inteiro. Por isso, quando não se chega em um acordo, a estimativa mais alta deve ser considerada como a melhor para o caso.
+- Após algumas Sprints, você vai perceber que a quantidade de pontos de história comprometidas com os itens do backlog e que são efetivamente entregues passarão a ficar mais homogêneas, o que indica que o time encontrou a sua velocidade.
+
 ## Mais sobre Definição de pronto, Critério de Aceitação e Preparado
+
+A definição de pronto é algo com o qual o time scrum se compromete a cumprir para garantir a qualidade das entregas, é uma descrição formal do estado do incremento quando ele atende às medidas de qualidade exigidas para o produto.
+
+Importante destacar que, a partir da nova versão do Guia do Scrum, se um item do backlog do produto atende à definição de pronto, um incremento nasce, ou seja, não é preciso chegarmos ao final da Sprint para termos um incremento. E mais a cada novo item que atenda a definição de pronto, estaremos gerando novos incrementos.
+Os critérios que são usados para considerar um item pronto geralmente podem incluir:
+
+- a avaliação da funcionalidade por outros membros do time.
+- Conclusão do teste unitário.
+- Conclusão de testes de qualidade.
+- Conclusão de toda documentação relacionada com a história de usuário.
+- Demonstração bem sucedida para as partes interessadas e ou representantes do negócio.
+
+Todas as condições da definição de pronto devem ser satisfeitas para que o item seja considerado pronto. Assim, a definição de pronto está ligada ao como o incremento será desenvolvido.
+
+São termos técnicos usados pelos desenvolvedores. Pense que é uma espécie de check-list com todos os itens que precisam estar 100% atendidos para que o item do backlog da Sprint possa ser entregue. Por isso, uma definição clara de pronto é fundamental, pois ajuda a eliminar a ambiguidade e permite ao time aderir aos padrões de qualidade exigidos.
+
+A definição de pronto pode evoluir ao longo do projeto e é recomendado que uma primeira versão seja criada durante a primeira sessão de planejamento da Sprint. É extremamente importante que essa definição seja revisada a cada Sprint. No entanto, não é recomendado que os critérios sejam alterados durante o curso de uma Sprint.
+- As reuniões de revisão da Sprint normalmente fornecem indicativos de que a definição de pronto precisa ser revisada, pois é comum que a reprovação de um item ocorra porque a definição de pronto não previu uma condição importante.
+
+Por exemplo: para o projeto de desenvolvimento do site de material esportivo, poderíamos ter como definição de pronto:
+- cobertura de pelo menos 95% do código em testes unitários, 
+- testar a integração com outros componentes quando for o caso.
+- Verificar se o Build do projeto funciona sem erros e fazer o deploy em um ambiente de produção simulado.
+- Realizar testes segundo os critérios de aceitação estabelecidos pelo cliente.
+- Garantir o uso das folhas de estilo "x, y, z" de forma que a interface gráfica possa ser reconhecida como sendo do módulo A.
+- Atualizar a documentação de usuário quando necessário.
+
+Quem cria a definição de pronto é o time Scrum. Caso a organização já não possua uma. Neste caso, o time Scrum deverá adotar integralmente a definição de pronto da organização e poderá adicionar itens relacionados ao produto em desenvolvimento.
+
+Quando vários times e Scrum estão trabalhando em um mesmo produto, devem juntos definir e cumprir a mesma definição de pronto.
+
+**Definição de pronto e definição de preparado.
+
+Existe uma diferença bem sutil entre essas duas palavras, da gramática em inglês temos que o done é usado quando a ação está acabada e ready significa que uma ação está terminada, porém outra ação está prestes a começar, ou seja, a pessoa terminou o que estava fazendo e está pronta para iniciar outra atividade a partir daquela que estava fazendo.
+![image](https://user-images.githubusercontent.com/52088444/232643044-11e64c98-fd6e-417e-afe1-a5d3cff02767.png)
+
+
+Assim, um item do backlog está preparado ou ready quando foi escrito com clareza e foi entendido por todos da equipe. Possui granularidade suficiente para ser desenvolvido no time box da Sprint. A sua estabilidade pode ser comprovada através de critérios de aceitação.
+![image](https://user-images.githubusercontent.com/52088444/232643212-a447562b-6e5d-4871-bc82-985de18c9669.png)
+
+
+Já o critério de pronto ou done indica que uma funcionalidade só estará completa quando submetida a critérios que assegurem a sua qualidade. O conceito de pronto é diferente em cada projeto e só é atingido quando o que foi desenvolvido de fato agrega algum valor para o cliente.
+![image](https://user-images.githubusercontent.com/52088444/232643237-2389736a-10c3-49ea-a7b2-7a0ca3e77749.png)
+
+**Critérios de aceitação e critérios de pronto.
+
+Os critérios de aceitação são representados por uma lista de itens de negócio que expressam formas de usar a funcionalidade implementada a partir de uma história de usuário. O objetivo dessa lista é validar se a história foi implementada de acordo com o que o dono do produto queria. Por isso, o nome critério de aceitação.
+
+critério de aceitação = critério de negócio;
+
+Os critérios de aceitação estão ligados intimamente ao item em desenvolvimento, ou seja, cada item terá seus critérios de aceitação próprios.
+
+Exemplo para história de usuário: como cliente da loja esportiva, quero poder procurar por uma determinada peça de roupa para que possa escolher a que melhor se adapte ao esporte que gosto.
+
+A partir dessa história, podemos ter os seguintes critérios de aceitação:
+
+- O usuário poderá informar o nome parcial do tipo de roupa que está procurando.
+- Uma lista de peças deve ser mostrada com base no nome informado.
+- Uma mensagem deverá ser mostrada caso nenhuma peça seja encontrada.
+
+Critérios de pronto = critérios Técnicos;
+
+Já os critérios de pronto se referem a outros componentes que não fazem parte diretamente da história do usuário. Garantem que todo o item gerado pelo projeto estará dentro dos padrões de qualidade estabelecidos pelo time scrum. Assim, todos os itens do projeto deverão atender aos critérios de pronto. Essa é uma forma de se buscar a excelência.
+
+Exemplo: para o projeto de desenvolvimento do site de material esportivo. Poderíamos ter como definição de pronto:
+
+- cobertura de pelo menos 95% do código em testes unitários.
+- Testar integração com outros componentes quando for o caso.
+- Verificar se o build do projeto funciona sem erros e fazer o deploy
+- realizar testes segundo os critérios de aceitação estabelecidos pelo cliente 
+- e atualizar a documentação de usuário quando necessário.
+
+
+
 ## Como medir a velocidade e capacidade do time
+
+
+Já falamos em diversas aulas que para uma estimativa de tamanho de sprint ser precisa, é necessário termos a velocidade ou ainda a capacidade de entrega do time.
+
+Velocidade e capacidade estão inter-relacionadas.
+
+Por exemplo: se um time entrega 60 pontos de história, por Sprint, podemos dizer que sua velocidade de entrega é de 60 pontos por Sprint, ou ainda o time tem a capacidade de absorver até 60 pontos de história por Sprint, independentemente de usarmos velocidade ou capacidade essa é uma das principais métricas que o time Scrum precisa conhecer.
+
+Não importa qual a unidade de medida que o time está usando, se serão pontos de história, tamanhos de camisetas, P,M G ou ainda horas. É necessário que o time conheça seu passo para que seja possível fazer ajustes quando houverem variações. Além disso, ter a métrica de velocidade auxilia na previsibilidade do que será entregue na Sprint, pois o time conseguirá fazer melhores previsões de entrega.
+
+**E afinal, como medir essa velocidade?
+
+Os métodos ágeis são empíricos. Logo, baseiam se em experiência prática passada para poder tirar conclusões sobre o futuro próximo.
+
+Sendo assim, o único jeito de saber a velocidade do time é fazendo com que ele rode de 1 a 3 Sprint, de preferência com a mesma formação.
+
+Para ter uma média e poder descobrir essa métrica, a velocidade de um time é reflexo de todo um contexto que envolve:
+- tecnologia, 
+- perfis de pessoas, 
+- experiência do time, 
+- quanto tempo trabalham juntos, 
+- o quanto conhecem do projeto e etc.
+
+Qualquer alteração nesse contexto irá provocar oscilações na velocidade.
+
+Por exemplo, ao incluirmos um novo desenvolvedor, é quase certo que a velocidade do time vai cair temporariamente, pois teremos que deslocar outro desenvolvedor para ensinar o trabalho ao novo membro.
+
+Importante ressaltar que você jamais deve comparar a velocidade entre dois times. Medimos a velocidade de um time para compará-lo sempre com ele mesmo, jamais com os outros. 
+
+Como normalmente o tamanho das histórias de usuários se dá por pontos de história. Geralmente a velocidade do time também usará essa mesma métrica. O time mede a sua velocidade de acordo com a quantidade de pontos de história que consegue completar por Sprint.
+
+![image](https://user-images.githubusercontent.com/52088444/232644702-d1f9f168-6f63-4b33-aff0-b68917a960c5.png)
+
+
+As Sprint devem ter, de preferência, sempre o mesmo tamanho do início ao fim do projeto. Caso contrário, a definição de velocidade perde o seu valor.
+
+Essa velocidade do time é uma definição muito importante porque determinará quantas frentes do projeto ou uma fase do projeto terá, e qual será a duração total do projeto ou fase em sprints.
+
+Por exemplo, vamos considerar que uma fase do projeto possui 30 histórias e a soma dos pontos de história é de 1000 pontos.
+
+O time já havia definido que consegue entregar 80 pontos de história para os de três semanas. Assim, o time precisará de 13 Sprints para completar os 1000 pontos. Ou seja, serão necessárias 39 semanas ou dez meses para completar essa fase do projeto.Na verdade, são 12 Sprints e meia.
+
+![image](https://user-images.githubusercontent.com/52088444/232644984-7204b800-175b-46ae-9f6c-394f52cc21ec.png)
+
+Mas como devemos considerar o time box completo, arredondando sempre para cima e com isso ficaremos com 13 Sprints.Veja, por esse exemplo, a importância de se ter a velocidade do time e aplicá-la para encontrar outros tamanhos e estimativas para o projeto.
+
+Times experientes e que já trabalham juntos há certo tempo geralmente possuem velocidades definidas e conseguem mantê-las em vários projetos.
+
+No entanto, times recém formados que nunca trabalharam juntos ou que não são experientes com o trabalho no formato do scrum, dificilmente terão velocidades definidas.
+
+**Então, como ter uma velocidade quando ela não existe?
+
+Quando o time não possui uma velocidade definida, deve selecionar histórias que acredita poder realizar na próxima Sprint e, ao final dela, analisar as histórias finalizadas, ajustando o tamanho do backlog que consegue completar na Sprint seguinte.
+
+Em outras palavras, se o time não possui uma velocidade definida, ele deve executar a Sprint sem uma velocidade estimada. A partir dessa primeira Sprint, será obtida uma velocidade de partida, que será ainda ajustada nas sprints seguintes.
+
+Ao fazer isso durante algumas sprints, o time obterá naturalmente a sua velocidade e poderá utilizá-la no restante do projeto e em outros projetos futuros. Partindo do princípio de que o time continue o mesmo e o tamanho das Sprint também.
+
+
+
