@@ -84,7 +84,9 @@ O product backlog é uma lista de intenções. Essa lista deve ser ordenada por 
 
  ![image](https://user-images.githubusercontent.com/52088444/233383626-720a95fb-1cca-4b2c-a1f0-c84f9de0a6d0.png)
 
+![image](https://user-images.githubusercontent.com/52088444/233384150-3586aa9d-da26-43d7-9468-aae71e8edac8.png)
 
+![image](https://user-images.githubusercontent.com/52088444/233384246-fdc0e89a-7a05-4a20-be5b-ec6d51b54d1f.png)
 
 
 
