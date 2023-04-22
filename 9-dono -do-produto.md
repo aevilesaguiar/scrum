@@ -330,15 +330,106 @@ A relação entre débito técnico e o total cost of ownership é diretamente pr
 
 
 
+## rEFINAMENTO
+
+![image](https://user-images.githubusercontent.com/52088444/233808928-caaec72e-f8e2-46a4-9a63-5fd19a2705c4.png)
+
+![image](https://user-images.githubusercontent.com/52088444/233808940-7110d689-00d3-42f0-8769-63667aa8498c.png)
+
+É comum que um item do backlog do produto passe por três reuniões de refinamento antes de ser considerado preparado ou ready.
+
+Às vezes podem ser mais reuniões, às vezes menos, e é de responsabilidade do dono do produto garantir que o item atenda ao critério de ready antes que ele entre em uma sprint. No entanto, o dono do produto não executa sua atividade sozinho, precisando sempre da participação dos demais membros do time.
+
+Assim, o dono do produto apresenta o item e tira eventuais dúvidas que o time tem a respeito. Muitas vezes, um item precisa ter alguma documentação já preparada, tal como levantamento de requisitos, uma MOCKUP de tela e etc.
+
+Antes de entrar no refinamento, uma vez apresentado o item, o time estima aproximadamente o seu tamanho. Uma maneira muito rápida de fazer isso é usando a técnica de estimativa, tamanhos de camisetas ou t- shirt. Ninguém sabe o tamanho exato de uma camiseta pequena, mas todo mundo tem uma ideia sobre a diferença relativa de tamanho entre uma camiseta pequena e uma média. Esta é a primeira entrada para um dono do produto ter uma ideia do esforço envolvido na realização de um item.
+
+Na segunda rodada, com mais alguns detalhes acrescentados, pode se atribuir os pontos de história ao item, mas novamente de maneira rápida. O formato usado com frequência é a estimativa mágica ou Magic Estimation, esta é uma forma de estimar o esforço sem ter longas e profundas discussões sobre o item. Neste momento, o time já tem uma ideia mais clara do que precisa ser desenvolvido. E se ainda faltam alguns detalhamentos, este é o momento em que o dono do produto acrescenta o que está faltando.
+
+O estágio final antes de um item ser considerado preparado para o desenvolvimento é a utilização da técnica do planning poker. Essa é uma técnica frequentemente usada para estimar itens. Ela é relativamente demorada, então de preferência você só deve aplicar se tiver dúvidas com relação à quantidade de esforço que será despendido na sua elaboração.
+
+Após estas três rodadas, com o item devidamente esclarecido, documentado e estimado, ele já pode entrar na fila de desenvolvimento das próximas SPRINT.
 
 
+![image](https://user-images.githubusercontent.com/52088444/233809632-2a3d3115-9769-450a-b03e-6a7cd238efce.png)
+
+Já vimos que para se criar o backlog do produto ou até mesmo revisá lo ao longo de todo o projeto, reuniões de refinamento devem acontecer e essas reuniões podem ser bem complicadas de se conduzir, pois como garantir que as discussões sejam focadas? Ou como controlar se o nível de detalhamento extrapolou o desejado? Em que momento se estimar os itens?
+
+Neste fluxograma criado por Stefano Van Rohden, vemos como pode ser a dinâmica de uma reunião de refinamento:
+
+Define inicialmente um time box para reunião, normalmente estabelece se 10% da carga horária de uma Sprint. Assim, se você tem 160 horas por quatro semanas de Sprint ou 40 horas de trabalho por semana, 10% disso te dará um time box de 04h00 semanais para as reuniões de refinamento.
+
+Defina também o time box para discussão de cada item. Caso contrário, você poderá ficar horas discutindo um mesmo item. Assim, estabeleça dez minutos de discussão para cada item quando o time box esgotar. Verifique com o time se um novo time box vai ser iniciado ou se o item volta para o backlog do produto, ou ainda se será realizado um speak na próxima sprint para que mais informações sejam recolhidas.
+
+O dono do produto escolhe por ordem de prioridade os itens e os coloca em discussão. Ele deve explicar o que se quer alcançar com o desenvolvimento do item, bem como por que o cliente o quer. Se o time não entender a justificativa do dono do produto, o item deve voltar para o backlog para ser melhor aclarado com o cliente.
+
+Se o time entendeu os motivos para o desenvolvimento desse item, agora deve verificar se saberão como será desenvolvido. Se o time não faz ideia de como desenvolver o item, é possível que seja necessário mais algum tempo para discussão. Nesse caso, o novo time box de dez minutos é iniciado. Há também a possibilidade do time pedir que seja executado um spyke que de forma a recolher mais informações sobre o item. Se o time já entender o que precisa ser feito e como vai ser feito, já há a possibilidade de estimá -lo. Não importa se o item é grande demais para ser concluído em uma única sprint. A estimativa fornece ao dono do produto uma nova entrada de refinamento no backlog do produto. Por exemplo, se o item ainda é um épico e não vai entrar na próxima Sprint, então não há necessidade de decompô-lo agora. Neste caso, o time pode usar estimativa de t-shirt ou tamanho de camisetas para indicar o tamanho relativo. À medida que o item vai caminhando para o topo da lista do backlog do produto, aí sim vai sendo decomposto e pode se realizar uma estimativa mais apurada, como Planning Poker.
+
+Veja que neste momento da estimativa, verifica se o trade off da sua elaboração, ou seja, verificamos se ainda vale a pena construí lo. Assim, se o valor para o cliente ainda maior do que o esforço para construí lo, o item continua válido. Caso contrário, o item deve ser descartado e o processo continua até que o time box do evento se encerre.
+
+Desde a criação inicial do backlog até praticamente o final do projeto, reuniões de refinamento serão realizadas.
+Como já vimos, embora o guia do Scrum não especifique um time box para as reuniões de refinamento, é comum que os times consumam até 10% do tempo da Sprint nesta atividade. Na prática, isso significa que um time que usa um time box de quatro semanas deverá dedicar 04h00 semanais em atividades de refinamento. Quando itens muito vagos são trazidos para o refinamento. Os times costumam ficar presos em discussões intermináveis, pois como não têm certeza do que se quer, qualquer coisa pode ser correta. Esse tipo de atividade de adivinhação consome a energia do time. É por isso que é costume limitar um time box de dez minutos para cada item do backlog do produto. Se após dez minutos ainda não houver uma ideia clara da solução a ser adotada, a discussão é interrompida e o time scrum decide o que fazer a seguir. Por exemplo, pode ser que o dono do produto precise verificar com suas partes interessadas algumas suposições ou que os desenvolvedores precisem fazer alguma lição de casa sobre as possíveis soluções como elaboração de um Spike. Se possível, sempre envolva as partes interessadas nas discussões, pois esse contato impede que as estimativas sejam baseadas em suposições e qualquer dúvida pode ser tirada imediatamente.
+
+**Os spikes
+
+vêm do Extreme Programming ou XP e são definidos como pequenas provas de conceito, ou seja, história ou tarefa destinada a responder a uma pergunta ou coletar informações, mas que não produzirá algo intregável para o cliente. Assim, durante o refinamento do backlog do produto, os desenvolvedores podem decidir criar um spike para checar se é possível desenvolver uma funcionalidade em sua totalidade. Ele será adicionado à backlog da próxima sprint e, de preferência, trará de volta um resultado que poderá aclarar mais a funcionalidade. Veja que spikes devem ser a exceção e não a regra. Não é só porque um item não foi totalmente compreendido que ele será candidato a uma spike. os spikes são usados quando estiverem experimentando uma nova tecnologia, uma nova ferramenta, um novo sistema operacional e etc.
 
 
+**Atividades durante o refinamento do backlog do produto.
 
+Realizar atividade de refinamento do backlog do produto é de responsabilidade do dono do produto, e é dele garantir um refinamento eficaz, para cada item que ele decidir apresentar. Durante o refinamento, ele precisa ter uma ideia clara do que o cliente gostaria de alcançar para esse item.
 
+Três atividades que devem normalmente fazer parte do refinamento são:
 
+- de composição, 
+- estimativas 
+- e escrever os critérios de aceitação.
 
+**Decomposição.
 
+![image](https://user-images.githubusercontent.com/52088444/233810563-4a3937bc-7afa-409b-9733-aba06e54f670.png)
+
+Conforme mencionado anteriormente, o objetivo do refinamento do backlog do produto é obter os itensem um estado de preparado ou ready.Isso significa que um item deve ser pequeno o suficiente para caber em uma Sprint.
+
+A técnica invest é ótima para ajudar as equipes a explorar as possibilidades de dividir épicos e históriasde usuário.
+
+Um detalhe importante é que o Scrum Master deve intervir toda vez que os times começarem a decomporos itens até o nível de tarefas. Este não é o momento para isso. A divisão em tarefas deve acontecer somente nas reuniões de planejamento da Sprint.
+
+**Estimativas.
+
+Uma das atividades mais debatidas quando as equipes aplicam o framework Scrum e em que momento essa estimativa deve ocorrer?
+
+O Scrum simplesmente declara que os itens devem ser estimados. No entanto, como estimar é deixado em branco.
+
+Partimos do princípio que se temos um time-box fixo para uma sprint, precisamos ter uma ideia de quantos itens vão caber nesse Sprint.
+
+Então, o ideal é já termos uma estimativa assim que o item esteja preparado para entrar no backlog da Sprint.
+
+Sendo assim, as estimativas deveriam ser feitas no refinamento.
+
+Existem várias técnicas de estimativaS e as mais comuns são:
+
+- o tamanho de camisetas, que é uma ótima técnica para estimar rapidamente um item e rápido e fácil de usar. Todo mundo tem uma ideia do conceito de pequeno, médio ou grande 
+- estimativa mágica, ou Matrix Animation, que é uma técnica para estimativa rápida de múltiplos itens;
+- Poker ou playing poker, que é a técnica mais conhecida para a realização de estimativas.  uma técnica demorada, mas muito eficaz.
+
+**Critérios de aceitação 
+
+Para que uma história seja considerada completa, além de sua descrição, é preciso definir os seus critérios de aceite ou aceitação. Esses critérios representam o que ela precisa fazer para ser considerada válida pelo dono do produto e, futuramente, pelo cliente.
+
+Da mesma forma que as histórias de usuário, os critérios de aceitação devem ser breves e objetivos, mostrando uma lista simplificada de itens que ajudarão na validação e conferência da história e que também podem servir de lembretes para a regras de negócio que precisam ser atendidas.
+
+- Exemplo para história de usuário.
+
+Como cliente da loja esportiva, quero procurar por uma determinada peça de roupa para que possa escolher a que melhor se adapte ao esporte que gosto.
+
+Podemos ter os seguintes critérios de aceitação:
+
+- O usuário poderá informar o nome parcial do tipo de roupa que está procurando.
+
+- Uma lista de peças deve ser mostrada com base no nome informado.
+
+- Uma mensagem deverá ser mostrada caso nenhuma peça seja encontrada.
 
 
 
