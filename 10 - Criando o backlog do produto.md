@@ -163,9 +163,7 @@ Exemplo para o projeto de desenvolvimento do site de material esportivo podería
 
 As histórias de usuário devem ser escritas pensando se nas necessidades do usuário final. Existem diversas técnicas que contribuem para um melhor conhecimento desse usuário. A mais utilizada nos processos ágeis é a criação de personas,
 
-Personas são modelos descritivos de usuários criados de dados de pesquisa que nos fornecem uma forma
-
-de entender como os usuários se comportam, como eles pensam, o que eles desejam e por quê.
+Personas são modelos descritivos de usuários, criados de dados de pesquisa, que nos fornecem uma forma de entender como os usuários se comportam, como eles pensam, o que eles desejam e por quê.
 
 Ou seja, é a transformação de todos aqueles dados que você conseguiu através da sua pesquisa de campo
 
