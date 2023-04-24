@@ -176,34 +176,75 @@ O ideal é que seja feito antes da primeira Sprint, naquele momento em que o tim
 
 Se o projeto já começou, não tem problema defina a persona a partir do que você já aprendeu sobre o projeto, algumas dicas importantes.
 
+## O que é DEEP
+
+acrónimo para detalhado, estimado, emergente e priorizado  e são as características que o dono do produto deve buscar sempre em seu backlog.
+
+- detalhes suficientes para garantir a clareza que propicia a execução, mas não detalhado em demasia que gere desperdício. A necessidade de profundidade no detalhamento é proporcional à emergência de uso do backlog. Ou seja, os itens que vão entrar na próxima Sprint devem estar melhor detalhados, enquanto que os itens que vão entrar daqui a várias Sprints podem estar bem menos detalhados 
+- e estimado: Isto quer dizer que todo o item, quando chega a um nível de detalhamento suficiente, deve ter uma estimativa de esforço associada a ele, uma vez que o backlog não é só apenas uma ferramenta de trabalho, mas também e de planejamento. Essa estimativa pode estar em horas, pontos de história ou qualquer outra medida que o time entenda. Essa estimativa, inclusive, pode auxiliar a entender se o nível de detalhamento está bom o suficiente, pois, via de regra, itens de backlog com uma estimativa muito alta deveriam ser decompostos em itens menores 
+- emergente. Isto quer dizer que o backlog evolui conforme o dono do produto vai aprendendo sobre o produto e de acordo com que o mercado validando o feedback sobre os lançamentos. O constante refinamento do backlog permite que o produto reaja bem a mudanças de estratégia e de escopo, ao invés de se apegar a um planejamento do tipo cascata ou waterfall. O segredo aqui é rever sempre o backlog constantemente.
+- Priorizado. Isso quer dizer que a ordem em que os elementos estão dispostos no backlog importa. Os itens mais prioritários devem estar no topo, enquanto que os menos prioritários devem estar mais abaixo. Os critérios e técnicas utilizados para a priorização variam muito de dono de produto para dono do produto de produto para produto e de mercado para mercado. Para o Scrum, não importa qual é a técnica, mas sim que o resultado deva gerar valor para os clientes e para empresa.
+
+##  Definição de Preparado ou Ready
+
+Os itens devem ser detalhados até atender o conceito de preparado ou ready, que significa que o requisito tem informações suficientes para começar a ser desenvolvido e imediatamente.
+
+Esta definição deve ser elaborada por cada organização, para cada projeto, dentro da organização ou até mesmo por cada time scrum.
+
+##  Ferramentas de Priorização
+
+-  Ferramentas de Priorização - Modelo de Kano
+O modelo de cano é uma maneira de priorização de backlog de produtos que leva em consideração principalmente o nível de satisfação dos seus clientes com o produto criado.Ou seja, funcionalidades que geraram mais satisfação são priorizadas em detrimento de outras.
+
+![image](https://user-images.githubusercontent.com/52088444/234076112-0bf40a99-3678-401b-b815-223841e8a6fe.png)
+
+A principal função deste modelo é determinar quais atributos devem ser incorporados a um produto ou serviço e quais atributos podem ser deixados de lado, uma vez que não agregam valor do ponto de vista do próprio consumidor. Uma importante característica do modelo de cano é a classificação de tais atributos em obrigatórios unidimensionais atrativos reversos e neutros e Unidimensional.
+
+![image](https://user-images.githubusercontent.com/52088444/234076598-051f1128-e8de-4309-90bc-2b0469ef6525.png)
+![image](https://user-images.githubusercontent.com/52088444/234076613-d8494ad1-d54b-477e-b0b0-d3668ac6cb1c.png)
 
 
+Alguns recursos do produto se comportam como o que poderíamos pensar intuitivamente, como a satisfação funciona. Quanto mais nós fornecemos, mais satisfeitos nossos clientes se tornam devido essa relação proporcional entre funcionalidade e satisfação.
 
-63. Criando o Backlog do Produto
-6m
-Reproduzir
-64. Refinamento do Backlog - Parte 1
-2m
-Reproduzir
-65. Tipos de Itens do Backlog do Produto
-3m
-Reproduzir
-66. O que é DEEP
-2m
-Reproduzir
-67. Definição de Preparado ou Ready
-3m
-Reproduzir
-68. Ferramentas de Priorização
-3m
-Reproduzir
-69. Ferramentas de Priorização - Modelo de Kano
-9m
-Reproduzir
-70. Ferramentas de Priorização - Moscow
-4m
-Reproduzir
-71. Ferramentas de Priorização - Buy a Feature
+Essas características geralmente são chamadas de atributos lineares e são representados no gráfico como uma linha reta.
+
+Como exemplos, podemos ter a velocidade de conexão internet que quanto maior, melhor a vida da bateria do seu notebook ou espaço de armazenamento em sua conta Dropbox. Quanto mais você tiver de cada um desses, maior será sua satisfação.
+
+Obrigatórios ou must be. Algumas características de produtos são simplesmente esperadas pelos usuários.
+
+Se o produto não possui essas funcionalidades, eles são considerados incompletos ou ruins. Esperamos que nossos telefones possam fazer chamadas. Nosso quarto de hotel deve ter água corrente e uma cama. O carro deve ter freios.
+
+Ter algum destes itens não nos deixará felizes, mas a falta deles definitivamente nos irritará com o produto ou serviço.
+
+Ter essas características nos nossos produtos não tornarão nossos clientes mais satisfeitos. Só farão com que eles não fiquem insatisfeitos. E é por isso que ele é representado como uma linha curva abaixo do eixo X.
+
+Atraente ou attractive. Existem características inesperadas que, quando apresentadas, causam uma reação positiva. Estas são geralmente chamadas de atraentes, encantadoras ou delight tours. As funcionalidades atraentes são aquelas que nos fazem, em menor escala, achar um produto bom e, em maior escala, nos surpreender completamente na forma em que estamos experimentando algo novo. A primeira vez que usamos um iPhone, não esperávamos uma interface touchscreen fluída e ficamos impressionados. Pense na primeira vez que usou o Google Maps ou Dropbox, aquele sentimento que você tem a experimentar algo novo, além das expectativas que o mercado criou em produtos similares. Isso é representado por uma curva que sempre se mantém acima do eixo X. Veja como até mesmo algum aumento mínimo de funcionalidade leva ao aumento da satisfação e a própria inclinação do gráfico.
+
+Neutro. Naturalmente, também há características para as quais nos sentimos indiferentes àqueles que a sua presença ou ausência não faz uma diferença real na nossa reação ao produto. Esses recursos caem ao longo do meio da dimensão satisfação, onde o eixo horizontal cruza. Isso significa que, não importa quanto esforço nós colocamos neles, os usuários realmente não se importaram. Essa é outra maneira de dizer que devemos realmente evitar trabalhar nestes requisitos, porque eles são essencialmente dissipadores de dinheiro. Em geral, essas são funcionalidades que foram desenvolvidas sem a devida pesquisa com o usuário e que não trazem benefícios nenhum.
+
+Atributos reversos são aqueles que, quando presentes, causam somente insatisfação. Pode parecer difícil imaginar um requisito que o usuário vá odiar o seu produto, mas imagine todas as vezes que seu sistema operacional Windows fez a atualização automática sem que você pedisse. Para os que não usam esse sistema operacional, vocês não fazem ideia do que é o seu computador parar para uma atualização antes de uma reunião importantíssima em que você teria que apresentar os números da sua área.
+
+![image](https://user-images.githubusercontent.com/52088444/234077388-f419bb57-57ac-4a6e-89e1-d61447866953.png)
+
+
+**Como o cliente se sente para descobrir a percepção dos usuários sobre os atributos dos nossos produtos, precisamos usar o questionário de Kano, que consiste em um par de perguntas sobre cada funcionalidade que queremos analisar.
+
+Deve se perguntar como o usuário se sentiria se tivesse a funcionalidade e perguntar como o usuário se sentiria se não tivesse a funcionalidade.
+
+A primeira pergunta é conhecida como funcional, enquanto a segunda é conhecida como disfuncional e ambas devem ter respostas de múltipla escolha da seguinte forma um gosto ou isso seria muito útil para mim necessário, ou este é um requisito básico para mim neutro, ou isso não me afetaria.
+
+Sobrevivo com, ou isso seria uma pequena inconveniência. E por fim, não gosto, ou este seria um grande problema para mim.
+
+Depois de fazer essas perguntas aos nossos clientes, podemos passar a caracterizar cada funcionalidade
+
+**tabela de avaliação.
+
+Uma das grandes vantagens do modelo Kano e que ele considera tanto as funcionalidades existentes quanto funcionalidades não existentes no produto, focando apenas nas necessidades dos usuários. Isso é feito através de uma tabela funcional que combina as respostas às perguntas funcionais e disfuncionais em suas linhas e colunas, respectivamente.
+
+![image](https://user-images.githubusercontent.com/52088444/234078149-1b1c5e7c-59fe-4d75-99f6-12638477be4a.png)
+
+
+- Ferramentas de Priorização - Buy a Feature
 5m
 Reproduzir
 72. Ferramentas de Priorização - Story Mapping
@@ -229,3 +270,9 @@ Reproduzir
 Reproduzir
 79. Criando o Plano de Releases
 4m
+
+
+## rEFERENCIAS
+
+- https://www.venki.com.br/blog/modelo-de-kano/
+- https://vidadeproduto.com.br/framework-modelo-kano/
