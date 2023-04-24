@@ -244,35 +244,75 @@ Uma das grandes vantagens do modelo Kano e que ele considera tanto as funcionali
 ![image](https://user-images.githubusercontent.com/52088444/234078149-1b1c5e7c-59fe-4d75-99f6-12638477be4a.png)
 
 
-- Ferramentas de Priorização - Buy a Feature
-5m
-Reproduzir
-72. Ferramentas de Priorização - Story Mapping
-7m
-Reproduzir
-73. Ferramentas de Priorização - Ordenação por turnos (ou Relativa)
-3m
-Reproduzir
-74. Ferramentas de Priorização - Valor de negócio x Custo
-1m
-Reproduzir
-75. Ferramentas de Priorização - Valor de negócio x Risco
-2m
-Reproduzir
-76. Ferramentas de Priorização - Scorecard
-3m
-Reproduzir
-77. Ferramentas de Priorização - Análise (ou Princípio) de Pareto
-4m
-Reproduzir
-78. Criando o Roadmap do Produto
-1m
-Reproduzir
-79. Criando o Plano de Releases
-4m
+##  Ferramentas de Priorização - Buy a Feature
+É uma dinâmica que pode ser realizada individualmente ou em grupo. Nela, você apresenta para os participantes uma lista de funcionalidades em que cada uma tem um preço fictício ou um determinado peso que pode ser estimado de acordo com esforço, números abstratos que dão a ideia de proporcionalidade entre os requisitos da solução, entre outras formas de quantificação. É uma espécie de e-commerce onde os usuários são solicitados a escolher quais funcionalidades colocarão em seus carrinhos ou não.
+
+Trata-se, então, de um framework de priorização utilizado para que possamos identificar as funcionalidades (features) atreladas a um serviço/produto que sejam mais valorizadas na percepção dos usuários.
+
+Assim, tem-se um mecanismo utilizado para determinar as funcionalidades favoritas dos usuários, comparar comportamentos de consumo e razões de escolha, quais são aquelas que, com uma quantidade limitada de recursos, ele priorizará em “seu carrinho de compras”.
+
+https://www.pieracciani.com.br/post/ja-ouviu-falar-da-ferramenta-buy-a-feature
+
+##  Ferramentas de Priorização - Story Mapping
+O User Story Mapping é uma técnica disseminada por Jeff Patton, um renomado agilista norte-americano, para apoiar Product Managers e seus times a organizarem a comunicação visual do backlog de forma eficiente e com um contexto. 
+
+O primeiro artigo onde ele cita a técnica é datada de 2005 e chama-se: “It’s All in How You Slice It”, algo como “Tudo está em como você fatia”.
+
+Para Patton, quando você tenta explicar sobre o funcionamento de um software por meio de um backlog organizado de forma habitual, há muita dificuldade, além de ser corriqueira a reclamação do time sobre a perda da visão do todo, já que estamos focados apenas nas user stories de forma isolada, não envolvidas por meio de um contexto.
+
+O que busca esse mapeamento? Contextualizar todo o desenvolvimento por meio de uma jornada do usuário, que são um conjunto de atividades dispostas em uma linha do tempo, nas quais são fatiadas em histórias menores e dessas, são geradas as tarefas para as entregas dessas histórias.
+
+- https://www.cursospm3.com.br/blog/o-que-e-user-story-mapping/?gclid=CjwKCAjw0ZiiBhBKEiwA4PT9zwz6T8CG4GLXhlHXaxHEv0CodhvdXRIcGR3sLUu5y7-B1hkLAKQi7xoCT1cQAvD_BwE
+
+## Ferramentas de Priorização - Ordenação por turnos (ou Relativa)
+
+Criar uma lista ordenada da lista  escolher um cartão que será usado como padrão. 
+
+## Ferramentas de Priorização - Valor de negócio x Custo
+
+é tipo uma avaliação de retorno sobre investimento (ROI) ela indica que o backlog será priorizado pelo o maior valor de negócio.
+Além da priorização de valor de negócio x custo podemos fazer uma priorização de valor de negócio x risco.
+
+## Ferramentas de Priorização - Scorecard
+
+O scorecard é outra técnica popular e seu objetivo é priorizar os recursos em um conjunto de critérios que foram negociados com as partes interessadas.
+A priorização é realizada a partir das notas obtidas de cada funcionalidade. É importante salientar que, ao selecionar os critérios, precisamos considerar outros departamentos envolvidos para conseguir dar o valor real de cada funcionalidade e até mesmo mapear dependências externas.
+
+
+## Ferramentas de Priorização - Análise (ou Princípio) de Pareto
+
+Antes discutimos a Análise de Pareto como uma ferramenta de planejamento estratégico. Em termos de priorização, a Análise de Pareto promove uma ideia muito simples: 80% do valor criado é atribuído a 20% das atividades
+
+Embora a análise histórica geralmente confirme a proporção 80/20, não há uma forma simples de encontrar estes 20% antes.
+
+A Lei de Pareto, também conhecida como Princípio 80 x 20, afirma que para muitos fenômenos, 80% das consequências advém de 20% das causas. A lei foi sugerida por Joseph Diorama, um dos gurus da qualidade e que deu esse nome em honra ao economista italiano Vilfredo Pareto.
+
+Assim, 20% dos vendedores ganham 80% das comissões.
+
+20% dos clientes respondem por 80% dos lucros de qualquer negócio.
+
+20% das funcionalidades de um software são usados por 80% de seus usuários.
+
+80% dos livros mais vendidos são de 20% dos autores e 80% das descobertas científicas são realizadas por 20% dos cientistas.
+
+## Criando o Roadmap do Produto
+
+Um roadmap de produto. É um plano que combina os objetivos do negócio às necessidades e desejos dos clientes em relação a esse produto e as tarefas necessárias para atingir esses objetivos. É muito comum que produtos sejam lançados de forma faseada, ou seja, existirão entregas parciais ou releases e, sendo assim, o roadmap é a melhor forma de representar isso.
+
+O roadmap do produto surge a partir do backlog do produto e facilita o diálogo entre o time scrum clientes e todas as partes interessadas sobre a sua evolução, indicando a todos o que se pretende alcançar em alto nível ao longo do projeto. Ele é também útil para a estratégia da organização, uma vez que ajuda a coordenar o desenvolvimento e entregas de produtos relacionados, além de outras atividades necessárias.
+
+A responsabilidade pela criação e manutenção do roadmap é do dono do produto, com a ajuda do restante do time Scrum e quaisquer outras partes interessadas. O formato sugerido é representado por uma linha no tempo que contém marcos, ou seja, datas aproximadas no futuro e objetivo do produto a serem alcançados em cada uma delas.
+
+##  Criando o Plano de Releases
+
+Um roadmap define uma visão estratégica de onde e para onde o produto está caminhando a médio e longo prazo. O roadmap está vinculado à visão e aos objetivos estratégicos da organização, geralmente ao longo de vários meses.
+
+Em contrapartida, o plano de releases ou plano de lançamentos, embora compartilhe muitas das mesmas informações, é a execução desse roadmap Ou ainda, o plano de releases está intimamente vinculado ao backlog do produto.
+
 
 
 ## rEFERENCIAS
 
 - https://www.venki.com.br/blog/modelo-de-kano/
 - https://vidadeproduto.com.br/framework-modelo-kano/
+- https://bscdesigner.com/pt/modelos-de-priorizacao.htm
