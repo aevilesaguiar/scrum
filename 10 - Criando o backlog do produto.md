@@ -165,74 +165,20 @@ As histórias de usuário devem ser escritas pensando se nas necessidades do usu
 
 Personas são modelos descritivos de usuários, criados de dados de pesquisa, que nos fornecem uma forma de entender como os usuários se comportam, como eles pensam, o que eles desejam e por quê.
 
-Ou seja, é a transformação de todos aqueles dados que você conseguiu através da sua pesquisa de campo
+Ou seja, é a transformação de todos aqueles dados que você conseguiu através da sua pesquisa de campo em um personagem fictício que representa o seu usuário final.
 
-em um personagem fictício que representa o seu usuário final.
+Baseado nele, você vai obter respostas para diversas dúvidas que aparecerão no decorrer do desenvolvimento de sua solução.
+Dessa forma, usamos o que se costuma chamar de proto personas, que são uma aproximação dos possíveis usuários do produto que será desenvolvido.
 
-Baseado nele, você vai obter respostas para diversas dúvidas que aparecerão no decorrer do desenvolvimento
+**Quando definir a persona?
 
-de sua solução.
+O ideal é que seja feito antes da primeira Sprint, naquele momento em que o time ainda está entendendo os requisitos, as tecnologias.
 
-É claro que montar uma persona do modo tradicional pode ser bem trabalhoso, pois será preciso disponibilizar
+Se o projeto já começou, não tem problema defina a persona a partir do que você já aprendeu sobre o projeto, algumas dicas importantes.
 
-uma equipe especialista para entrevistar diversos personas, tabular todos esses dados.
 
-Identificar o dia a dia dos seus usuários.
 
-Mapear as variáveis, entre outros.
 
-Dessa forma, usamos o que se costuma chamar de proto personas, que são uma aproximação dos possíveis
-
-usuários do produto que será desenvolvido.
-
-No exemplo do site de material desportivo, poderíamos ter uma persona como esta.
-
-E por que colocar informações tais como sempre está atrasado ou morar fora do país?
-
-Porque assim organizamos o tal usuário final.
-
-O Fábio Santos passa a ser alguém para quem estamos construindo o produto e, caso tenhamos dúvidas
-
-com relação a uma determinada funcionalidade, nos perguntarmos será que isto faria sentido para o Fábio?
-
-Quando trabalhamos com personas, estamos tratando diretamente do design centrado no usuário.
-
-Ou seja, devemos ter em mente que o real objetivo é entregar valor para o usuário, e não um monte
-
-de funcionalidades que quase ninguém vai usar.
-
-Para isso acontecer, é preciso que todo o time entenda as características, necessidades e o contexto
-
-de seus usuários quando definir a persona.
-
-O ideal é que seja feito antes da primeira.
-
-Espreite naquele momento em que o time ainda está entendendo os requisitos, as tecnologias.
-
-Se o projeto já começou, não tem problema.
-
-Defina a persona a partir do que você já aprendeu sobre o projeto, algumas dicas importantes.
-
-Depois que montou a própria persona, vale de sempre.
-
-Lembre se se for para errar, é melhor descobrir logo, e não no final do projeto.
-
-Crie pelo menos duas personas para sua solução.
-
-Trabalhe com faixas etárias espaçosas.
-
-O resultado costuma ser bem diferente.
-
-Por exemplo.
-
-Tênis para pessoas idosas são totalmente diferentes dos tênis para corredores.
-
-Deixe as proto personas sempre visíveis para o time.
-
-Cole na parede, se for o caso, para que o time nunca se esqueça delas.
-
-3m
-Reproduzir
 63. Criando o Backlog do Produto
 6m
 Reproduzir
